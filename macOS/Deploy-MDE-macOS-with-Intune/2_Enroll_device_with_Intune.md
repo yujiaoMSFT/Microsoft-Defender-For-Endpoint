@@ -60,7 +60,8 @@ If you intend to enroll a company-owned macOS device such as using Automated Dev
 1. Open [Intune portal](https://aka.ms/memac)
 2. Go to **Devices** > **Monitor** > **By platform** > **macOS**
 3. Confirm that you will see your macOS device in the Intune portal.
-     (Note: If you’ve just registered the device, it may take a while before it shows up)   
+   > Note: If you’ve just registered the device, it may take a while before it shows up  
+   ![image alt] (https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/8ffa0de589fc4f574434267ea9abef0de219fce9/Images/macOS/IntuneRegisteredDevice.png)
 
 ### 2: Create a Device Group
 1. Go to **Groups** > **All groups** in the Intune portal.
