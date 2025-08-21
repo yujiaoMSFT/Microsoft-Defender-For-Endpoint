@@ -15,7 +15,7 @@ If you intend to enroll a company-owned macOS device such as using Automated Dev
 ## Step 1: Install Intune Company portal app for macOS
 
 1. **Open your browser** on your macOS device and go to https://aka.ms/EnrollMyMac.
-2. When prompted with the message **"Do you want to allow downloads on officecdn.microsoft.com?"**, click **Allow** to proceed with the download
+2. When prompted with the message **"Do you want to allow downloads on officecdn.microsoft.com?"**, click **Allow** to proceed with the download  
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/07a5c99eb247631274801302a602b27f7b92bf86/Images/macOS/Download-IntuneApp.png)
 3. Once the download is complete, run the file named **CompanyPortal-Installer.pkg**.
 4. On welcome screen, click **Contine**.
