@@ -1,0 +1,106 @@
+# 4.	Create the MDE configuration (using Graph API)
+
+## What's covered in this section
+
+In this section, we will cover the creation of multiple configuration policies required for Microsoft Defender for Endpoint (MDE) on macOS.  
+While the  [public documentation](https://learn.microsoft.com/en-us/defender-endpoint/mac-install-with-intune) outlines these steps using manual profile creation through the Intune portal, you can certainly choose that approach.  
+However, I will instead **leverage a sample Graph API script** created by [Chiris Cruisze](https://github.com/CKunze-MSFT) to simplify these manual tasks by automation and efficient.
+> If you're anything like me and prefer to avoid repetitive manual tasks, you'll love this method. It saves time and effort! Thanks Chris!
+
+## Prerequistie
+
+-  PC with PowerShell installed. (I tested with Windows 11 PC. As long as PowerShell is installed, it should work on other OS such as macoS)
+-  Graph API permission. (We will cover this in the section)
+
+## What this script does?
+
+Before running script, let me explain what this script does.  Once this script runs, it connects to Graph API and complete following. 
+- Download configuraiton files from [GitHub repository](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
+- Create policy setting in Microsoft Intune portal (Seee below tables)
+
+
+| No | Configuration | Configuration File | Policy Type in Intune | description |
+| ------ | ------ | ------ | ------ | ------ |
+| 1 | Approve system extensions | sysext.mobileconfig | Custom | System extension permissions |
+| 2 | System extensions restricted | sysext_restricted.mobileconfig | Custom | Restricted system extension permissions |
+| 3 | Network Filter | netfilter.mobileconfig | Custom | MDE on macOS inspects socket traffic and reports this information to the Defender XDR portal | 
+| 4 | Full Disk Access | fulldisk.mobileconfig | Custom | This configuration profile grants Full Disk Access to Microsoft Defender for Endpoint This configuration profile grants Full Disk Access to Microsoft Defender for Endpoint |
+| 5  | Background services | background_services.mobileconfig | Custom | This configuration profile grants Background Service permission to Microsoft Defender for Endpoint |
+| 6 | Notifications | notif.mobileconfig	| Custom | This profile is used to allow Microsoft Defender for Endpoint on macOS and Microsoft AutoUpdate to display notifications in UI |
+| 7 | Accessibility | accessibility.mobileconfig | Custom | This profile is used to allow Microsoft Defender for Endpoint on macOS to access the accessibility settings on Apple macOS |
+| 8 | Bluetooth permissions | bluetooth.mobileconfig | Custom | Microsoft Defender for Endpoint uses it if you configure Bluetooth policies for Device Control |
+| 9 | Kext (Kernel extension) | kext.mobileconfig | Custom |  We don't deploy this policy because no longer needed. (Kernel Extension only works on macOS versions prior to 11)" |
+
+**How does it look like in Intune portal?**  
+After running this script successfuly, it creates the following policies in Intune portal like below screenshot.
+Each policy name start with a **"MDE (imported) -"**..
+
+![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/ba54b91863d7f2fe8518d98dd23d48f0e9249326/images/Intune-DeviceConfiguration.png)
+
+> Policy assignments must be configured individually after each policy is created. Some policies may not be deployed since they are not required for the current macOS versions
+
+Now let's start!
+
+## Step 1: Download Sample PowerShell script
+
+1. Download the PowerShell script **(AddDefenderConfigsToIntune.ps1)** from [GitHub](https://github.com/microsoft/shell-intune-samples/tree/master/macOS/Config/Defender%20Configuration)  
+
+     > You’ll find the **download raw file** button circled in red at the top right corner.
+
+     ![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/554246d124de50864a1e00626ec000d96954e718/images/MDE-MacOS-IntuneScript1.png)
+
+     I also **highly recommend reading the guidance provided in the script**, specifically the sections titled 'Configuration Variables' and 'Prerequisites and Authentication'.
+   
+## Step 2: Install Microsoft Graph PowerShell SDK
+   
+> You can skip this step if you alrady installed the Microsoft Graph SDK on your device.
+
+1. Launch PowerShell as administrator, and run command below to start installing [Microsoft Graph PowerShell SDK](https://learn.microsoft.com/ja-jp/powershell/microsoftgraph/installation?view=graph-powershell-1.0):  
+     ```sh
+      Install-Module Microsoft.Graph -Scope CurrentUser
+     ```
+2. During installation, you may encounter message dialogs. When they appear, click the 'Yes' or 'Yes to all' button to proceed.
+3. Once installation completes, you will see message like below.
+     ![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/841416b2c221af969d7c076684ecc0db2339dd37/images/MDE-MacOS-PS-SDK-Complete.png)
+
+4. Run following command to validate the installation and installed version.
+
+     ```sh
+     Get-InstalledModule Microsoft.Graph.*
+     ```
+     ![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/36cdc5bf4a4f47348843070032e9bdfa41b6e43e/images/MDE-MacOS-PS-SDK-Complete2.png)  
+
+## Step 3: Grand API access
+
+The following access permissions are required to execute the PowerShell script for making changes in Intune via API."
+Connect-MgGraph -NoWelcome -Scopes "DeviceManagementConfiguration.ReadWrite.All"
+
+1. In the browser, open [Azure portall](https://portal.azure.com/)
+2. In the search box on the top, search with keyword **Intune Graph API"**.
+3. Click **Intune Gpaph API** from the search result.
+4. Intune Graph API appears. Go to **Manage** > **API permissions**
+5. Click **Add a permission**
+6. Select **Microsoft Graph** in Microsoft APIs tab
+7. Select **Delegated Permissions**
+8. In the search box, type **DeviceManagementConfiguration.ReadWrite.All**. You will see the permission listed
+9. Select the **DeviceManagementConfiguration.ReadWrite.All** and click **Add permissions**
+
+Test text
+   
+## Step 4: Execute Graph API
+Now you're ready to run the script and cretate policies via Graph API. Execute the downloaded PowrShell script (AddDefenderConfigsToIntune.ps1) in the step 1.
+You will see login prompt. Enter your Intuhe admin account and password to proceed.
+
+
+Screenshot of script execution
+
+## Step 3: Check in Microsoft Intune portal
+
+Let's go to [Intune portal](https://aka.ms/memac) and check pocicies are successfully created.  
+Go to Devices / Manage devices / Configuration in Microsoft Intune portal.  
+You will see policy name begins with **"MDE (imported) -"**..  
+![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/bad5877a2d0de0e636ba035d275e3d82c92c1e6d/images/MDE-MacOS-Intune-DeviceConfiguration.png)
+
+Screenshot of portal - Policy created
+
+## Step 4: Assign to groups
