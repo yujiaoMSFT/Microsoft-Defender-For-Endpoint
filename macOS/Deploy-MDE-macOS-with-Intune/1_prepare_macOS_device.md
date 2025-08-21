@@ -21,7 +21,7 @@ Access the following URLs:
 >  https://x.cp.wd.microsoft.com/api/report  
 >  https://cdn.x.cp.wd.microsoft.com/ping
 
-If successful, you’ll see an OK message..
+If successful, you’ll see an OK message.
 ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/475f6b6767a0e4b75a419374000bceb22b81872c/Images/macOS/NetworkAccessTest-Browser.png)
 
 **Test from command line.**  
@@ -30,8 +30,8 @@ Run the following command in Terminal:
  ```sh
 curl -w ' %{url_effective}\n' 'https://x.cp.wd.microsoft.com/api/report' 'https://cdn.x.cp.wd.microsoft.com/ping'
  ```
-If the test network connection is successful, you will see an OK message like the one shown in the screenshot below.
-![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/2f791329556644b1dd957b3e085988682fbef2ac/images/MDE-MacOS-Test-NetworkAccess-CLI.png)
+A successful test will return an OK message..
+![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/640d73e0452a31e36b7e39a3d048a10d71a25f59/Images/macOS/NetworkAccessTest-Terminal.png)
 
 
 ## License requirements
