@@ -30,7 +30,7 @@ The table below outlines the key steps for deploying MDE on macOS using Intune. 
 | No | Desctiption | URL | 
 | ------ | ------ | ------ |
 | 1 | [Prepare your macOS device](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/21bb061f08ad452f0433a2152521e6be31ea472a/macOS/Deploy-MDE-macOS-with-Intune/1_prepare_macOS_device.md) | TBD|
-| 2 | Register the device with Intune | TBD|
+| 2 | [Enroll the device with Intune](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/b761dc1254cd93a85a99bfd045d5774a5fa3c566/macOS/Deploy-MDE-macOS-with-Intune/2_Enroll_device_with_Intune.md) | TBD|
 | 3 | Create the MDE application package (using Graph API) | TBD |
 | 4 | Create the MDE configuration (using Graph API) | TBD |
 | 5 | Download the onboarding package and create the onboarding policy | TBD |
