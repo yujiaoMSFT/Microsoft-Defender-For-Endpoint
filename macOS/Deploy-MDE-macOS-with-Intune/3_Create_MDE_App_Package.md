@@ -1,7 +1,8 @@
-# 3: Create the MDE application package
+# 3: Deploy MDE application package
 
 ## What's covered in this section
 - Create Defender for Endtpoint (MDE) applicatino package for macOS in Intune portal
+- Deploy MDE application package
 
 ## Prerequistie
 - Access permission to Intune portal
