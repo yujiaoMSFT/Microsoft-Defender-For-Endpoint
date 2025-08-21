@@ -57,8 +57,9 @@ If you intend to enroll a company-owned macOS device such as using Automated Dev
 ## Step 3: Confirm device object and create Deice group in Intune  portal
 
 ### 1: Confirm device object
-1. Go to **Devices** > **Monitor** > **By platform** > **macOS**
-2. Confirm that you will see your macOS device in the Intune portal.
+1. Open [Intune portal](https://aka.ms/memac)
+2. Go to **Devices** > **Monitor** > **By platform** > **macOS**
+3. Confirm that you will see your macOS device in the Intune portal.
      (Note: If you’ve just registered the device, it may take a while before it shows up)   
 
 ### 2: Create a Device Group
