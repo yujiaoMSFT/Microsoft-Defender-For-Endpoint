@@ -48,9 +48,9 @@ https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-
 To complete the setup, ensure access to both **Microsoft Intune** and **Microsoft Defender Portal**.
 In this guide, an Entra ID account was created and assigned the following roles:
 
-**Microsoft Intune**
+**Microsoft Intune**  
 Added the account to Endpoint Security Manager role (Intune built-in role)  
-See: [Role-based access control with Microsoft Intune](https://learn.microsoft.com/en-us/intune/intune-service/fundamentals/role-based-access-control)
+See : [Role-based access control with Microsoft Intune](https://learn.microsoft.com/en-us/intune/intune-service/fundamentals/role-based-access-control)
 
 **Microsoft Defender for Endpoint**  
 Use [Microsoft Defender XDR Unified role-based access control (RBAC)](https://learn.microsoft.com/en-us/defender-xdr/manage-rbac) and assign following permissions.  
@@ -58,5 +58,5 @@ Use [Microsoft Defender XDR Unified role-based access control (RBAC)](https://le
 -  Security posture  (All read and manage permissions)
 -  Authorization and settings (All read and manage permissions)
 
-See:[Permissions in Microsoft Defender XDR Unified role-based access control (RBAC)](https://learn.microsoft.com/en-us/defender-xdr/custom-permissions-details)
+See: [Permissions in Microsoft Defender XDR Unified role-based access control (RBAC)](https://learn.microsoft.com/en-us/defender-xdr/custom-permissions-details)
 
