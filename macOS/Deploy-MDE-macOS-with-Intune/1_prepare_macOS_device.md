@@ -50,7 +50,7 @@ To complete the setup, ensure access to both **Microsoft Intune** and **Microsof
 In this guide, an Entra ID account was created and assigned the following roles:
 
 Endpoint Security Manager(Intune built-in role)
-→ See: [Role-based access control with Microsoft Intune]((https://learn.microsoft.com/en-us/intune/intune-service/fundamentals/role-based-access-control))
+→ See: [Role-based access control with Microsoft Intune](https://learn.microsoft.com/en-us/intune/intune-service/fundamentals/role-based-access-control)
 
 [Specify Role](Defender XDR role)
 → Security operators 
