@@ -1,4 +1,4 @@
-# Prepare macOS device for Defender for Endpoint (MDE)
+# 1: Prepare macOS device for Defender for Endpoint (MDE)
 
 ## System requirements
 Microsoft Defender for Endpoint (MDE) on macOS is supported on the three most recent major release versions for both Intel and ARM chipsets:
