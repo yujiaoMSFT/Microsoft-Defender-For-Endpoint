@@ -33,7 +33,6 @@ curl -w ' %{url_effective}\n' 'https://x.cp.wd.microsoft.com/api/report' 'https:
 A successful test will return an OK message..
 ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/640d73e0452a31e36b7e39a3d048a10d71a25f59/Images/macOS/NetworkAccessTest-Terminal.png)
 
-
 ## License requirements
 To follow the deployment method described in this guide, you’ll need licenses for both **Microsoft Intune** and **Microsoft Defender for Endpoint**.
 Supported license options include:
@@ -49,22 +48,15 @@ https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-
 To complete the setup, ensure access to both **Microsoft Intune** and **Microsoft Defender Portal**.
 In this guide, an Entra ID account was created and assigned the following roles:
 
-Endpoint Security Manager(Intune built-in role)
-→ See: [Role-based access control with Microsoft Intune](https://learn.microsoft.com/en-us/intune/intune-service/fundamentals/role-based-access-control)
+**Microsoft Intune**
+Added the account to Endpoint Security Manager role (Intune built-in role)  
+See: [Role-based access control with Microsoft Intune](https://learn.microsoft.com/en-us/intune/intune-service/fundamentals/role-based-access-control)
 
-[Specify Role](Defender XDR role)
-→ Security operators 
-- 
-Replace "XXX" with the appropriate role name.
+**Microsoft Defender for Endpoint**  
+Use [Microsoft Defender XDR Unified role-based access control (RBAC)](https://learn.microsoft.com/en-us/defender-xdr/manage-rbac) and assign following permissions.  
+-  Security operators (All read and manage permissions)
+-  Security posture  (All read and manage permissions)
+-  Authorization and settings (All read and manage permissions)
 
+See:[Permissions in Microsoft Defender XDR Unified role-based access control (RBAC)](https://learn.microsoft.com/en-us/defender-xdr/custom-permissions-details)
 
-
-
-
-In this guide, an Entra ID account was created and assigned the following roles:
-
-Endpoint Security Manager(Intune built-in role)
-→ See: Role-based access control with Microsoft Intune
-
-[Specify Role](Defender XDR role)
-→ Replace "XXX" with the appropriate role name.
