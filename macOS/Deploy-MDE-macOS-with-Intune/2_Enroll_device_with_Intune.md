@@ -38,20 +38,20 @@ If you intend to enroll a company-owned macOS device such as using Automated Dev
 2. **Enter user account** and click **Next** (Ensure the user has both Intune and MDE licenses assigned.)  
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/16d3cb06f507760f0b8dd787fd3c3e9752d9b79c/Images/macOS/IntuneRegister2.png)
 3. **Enter you password**  
+   > *Complete Multi-Factor Authentication (MFA) if prompted*  
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/16d3cb06f507760f0b8dd787fd3c3e9752d9b79c/Images/macOS/IntuneRegister3.png)
-4. **Complete Multi-Factor Authentication (MFA)** if prompted.  
-5. When the Setup screen appears, click **Begin**.  
+4. When the Setup screen appears, click **Begin**.  
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/86df514f8922a8f231f54ef90fecca191e3e86b1/Images/macOS/IntuneRegister4.png)
-6. Review the **Privacy Information**, then click **Continue**.
+5. Review the **Privacy Information**, then click **Continue**.
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/86df514f8922a8f231f54ef90fecca191e3e86b1/Images/macOS/IntuneRegister5.png)
-7. Click **Download profile** button and  wait for download to complete.
+6. Click **Download profile** button and  wait for download to complete.
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/86df514f8922a8f231f54ef90fecca191e3e86b1/Images/macOS/IntuneRegister6.png)
-8. The **Device Management** screen will open. Click on **Management Profile**, then click **Install**.
+7. The **Device Management** screen will open. Click on **Management Profile**, then click **Install**.
     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/fbd0c573e8ff02a50db1df9ade23d926c970e07f/Images/macOS/IntuneRegister7.png)
-9. enter **admin credentials** of your macOS device and then click **Enroll**.
-10. Click **Done** to complete the setup
+8. enter **admin credentials** of your macOS device and then click **Enroll**.
+9. Click **Done** to complete the setup
     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/fbd0c573e8ff02a50db1df9ade23d926c970e07f/Images/macOS/IntuneRegister8.png)
-11. You will now see your device registered in the company portal app (ADD IMAGE)
+10. You will now see your device registered in the company portal app (ADD IMAGE)
     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/fbd0c573e8ff02a50db1df9ade23d926c970e07f/Images/macOS/IntuneRegister9.png)
     
 ## Step 3: Confirm device object and create Deice group in Intune  portal
