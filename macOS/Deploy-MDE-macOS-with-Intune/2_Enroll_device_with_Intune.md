@@ -19,11 +19,15 @@ If you intend to enroll a company-owned macOS device such as using Automated Dev
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/07a5c99eb247631274801302a602b27f7b92bf86/Images/macOS/Download-IntuneApp.png)
 3. Once the download is complete, run the file named **CompanyPortal-Installer.pkg**.
 4. On welcome screen, click **Contine**.
-6. Read the Software License Agreement, then click **Continue**.
-7. Click **Agree** to accept the Software License Agreement and proceed
-8. Click **Install** to beging the installation. You may be prompted to enter **admin credentials** of your macOS device. Do so to continue.
-9. After installation completes, click **Close**.
-10. You can optionally click **Move to Trash** to delete the installer file once setup is complete.
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/ca29f659c7991b751e9d055015d4b274a617b99e/Images/macOS/IntuneSetup1.png)
+5. Read the Software License Agreement, then click **Continue**.
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/ca29f659c7991b751e9d055015d4b274a617b99e/Images/macOS/IntuneSetup2.png)
+6. Click **Agree** to accept the Software License Agreement and proceed
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/ca29f659c7991b751e9d055015d4b274a617b99e/Images/macOS/IntuneSetup3.png)
+7. Click **Install** to beging the installation. You may be prompted to enter **admin credentials** of your macOS device. Do so to continue.
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/ca29f659c7991b751e9d055015d4b274a617b99e/Images/macOS/IntuneSetup4.png)
+12. After installation completes, click **Close**.
+13. You can optionally click **Move to Trash** to delete the installer file once setup is complete.
 
 ## Step 2: Sign in to Componay portal and rgister with Intune
 
