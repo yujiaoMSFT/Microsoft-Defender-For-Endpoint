@@ -38,7 +38,8 @@ If you intend to enroll a company-owned macOS device such as using Automated Dev
 2. **Enter user account** and click **Next** (Ensure the user has both Intune and MDE licenses assigned.)  
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/16d3cb06f507760f0b8dd787fd3c3e9752d9b79c/Images/macOS/IntuneRegister2.png)
 3. **Enter you password**  
-   > *Complete Multi-Factor Authentication (MFA) if prompted*  
+   > *Complete Multi-Factor Authentication (MFA) if prompted*
+
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/16d3cb06f507760f0b8dd787fd3c3e9752d9b79c/Images/macOS/IntuneRegister3.png)
 4. When the Setup screen appears, click **Begin**.  
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/86df514f8922a8f231f54ef90fecca191e3e86b1/Images/macOS/IntuneRegister4.png)
@@ -61,7 +62,7 @@ If you intend to enroll a company-owned macOS device such as using Automated Dev
 2. Go to **Devices** > **Monitor** > **By platform** > **macOS**
 3. Confirm that you will see your macOS device in the Intune portal.
    > Note: If you’ve just registered the device, it may take a while before it shows up  
-   ![image alt] (https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/8ffa0de589fc4f574434267ea9abef0de219fce9/Images/macOS/IntuneRegisteredDevice.png)
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/8ffa0de589fc4f574434267ea9abef0de219fce9/Images/macOS/IntuneRegisteredDevice.png)
 
 ### 2: Create a Device Group
 1. Go to **Groups** > **All groups** in the Intune portal.
