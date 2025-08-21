@@ -26,8 +26,10 @@ If you intend to enroll a company-owned macOS device such as using Automated Dev
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/ca29f659c7991b751e9d055015d4b274a617b99e/Images/macOS/IntuneSetup3.png)
 7. Click **Install** to beging the installation. You may be prompted to enter **admin credentials** of your macOS device. Do so to continue.
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/ca29f659c7991b751e9d055015d4b274a617b99e/Images/macOS/IntuneSetup4.png)
-12. After installation completes, click **Close**.
-13. You can optionally click **Move to Trash** to delete the installer file once setup is complete.
+8. After installation completes, click **Close**.
+    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/b55879b17ef397b1afb5c291d064099949c59166/Images/macOS/IntuneSetup5.png)
+9. You can optionally click **Move to Trash** to delete the installer file once setup is complete.
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/b55879b17ef397b1afb5c291d064099949c59166/Images/macOS/IntuneSetup6.png)
 
 ## Step 2: Sign in to Componay portal and rgister with Intune
 
