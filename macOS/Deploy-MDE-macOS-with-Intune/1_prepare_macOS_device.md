@@ -22,7 +22,7 @@ Access the following URLs:
 >  https://cdn.x.cp.wd.microsoft.com/ping
 
 If successful, you’ll see an OK message..
-![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/1f22eb9ba960ba968a11e826af6fa089e36176fc/images/MDE-MacOS-Test-NetworkAccess.png)
+![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/475f6b6767a0e4b75a419374000bceb22b81872c/Images/macOS/NetworkAccessTest-Browser.png)
 
 **Test from command line.**  
 Run the following command in Terminal:
