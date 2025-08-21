@@ -35,5 +35,5 @@ The table below outlines the key steps for deploying MDE on macOS using Intune. 
 | 4 | [Deploy MDE configuration settings (using Graph API)](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/753734989e691e2b7818fa9c9b9a151474fd8038/macOS/Deploy-MDE-macOS-with-Intune/3_Deploy_MDE_App_Package.md) | TBD |
 | 5 | [Deploy MDE onboarding package](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/a4a36628529268238f43020ee1a619e3baaf7046/macOS/Deploy-MDE-macOS-with-Intune/5_Deploy_MDE_Onboarding_Package.md) | TBD |
 | 6 | [Verify installaton](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4dbedf239c2769502ff9f41b052b9ef6f88434ab/macOS/Deploy-MDE-macOS-with-Intune/6_Verify_Installation.md) | TBD | 
-| 7 | [Run a detection test]() | TBD | 
+| 7 | [Run a detection test](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/46001444f000f2161777b315e92a05841b4c0455/macOS/Deploy-MDE-macOS-with-Intune/7_Run_Detection_Test.md) | TBD | 
 
