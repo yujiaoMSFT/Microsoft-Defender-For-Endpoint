@@ -16,13 +16,14 @@ If you intend to enroll a company-owned macOS device such as using Automated Dev
 
 1. **Open your browser** on your macOS device and go to https://aka.ms/EnrollMyMac.
 2. When prompted with the message **"Do you want to allow downloads on officecdn.microsoft.com?"**, click **Allow** to proceed with the download
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/07a5c99eb247631274801302a602b27f7b92bf86/Images/macOS/Download-IntuneApp.png)
 3. Once the download is complete, run the file named **CompanyPortal-Installer.pkg**.
 4. On welcome screen, click **Contine**.
-5. Read the Software License Agreement, then click **Continue**.
-6. Click **Agree** to accept the Software License Agreement and proceed
-7. Click **Install** to beging the installation. You may be prompted to enter **admin credentials** of your macOS device. Do so to continue.
-8. After installation completes, click **Close**.
-9. You can optionally click **Move to Trash** to delete the installer file once setup is complete.
+6. Read the Software License Agreement, then click **Continue**.
+7. Click **Agree** to accept the Software License Agreement and proceed
+8. Click **Install** to beging the installation. You may be prompted to enter **admin credentials** of your macOS device. Do so to continue.
+9. After installation completes, click **Close**.
+10. You can optionally click **Move to Trash** to delete the installer file once setup is complete.
 
 ## Step 2: Sign in to Componay portal and rgister with Intune
 
