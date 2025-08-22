@@ -30,8 +30,29 @@ Incident page
 
 https://learn.microsoft.com/en-us/defender-endpoint/validate-antimalware
 
-- Anttivirus (Behavior moniroing)
+### Anttivirus (Behavior moniroing)
+
+#### How to verify BM is enabled
+Run below command in terminal
+```sh
+mdatp health --details features
+```
+You will see status of Behavior Monitoirng
+```sh
+behavior_monitoring     :"enabled"
+```
+Enabling / disabling Behavior monitoing  
+enable
+```sh
+sudo mdatp config behavior-monitoring --value enabled
+```
+disable
+```sh
+sudo mdatp config behavior-monitoring --value disabled
+```
+
 https://learn.microsoft.com/en-us/defender-endpoint/demonstration-behavior-monitoring
-  
+
+### EDR detection
 - EDR functionality
 https://learn.microsoft.com/en-us/defender-endpoint/edr-detection
