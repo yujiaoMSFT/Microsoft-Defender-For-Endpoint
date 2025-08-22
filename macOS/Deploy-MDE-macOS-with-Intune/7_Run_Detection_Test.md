@@ -7,7 +7,12 @@
 
 ## Run detection test
 
-- Antivirus (Real time scanning)
+### Antivirus (Real time scanning)
+Run below command in terminal to confirm real time protection status
+```sh
+mdatp health --field real_time_protection_enabled
+```
+If real-time protection is enabled, the output will be *true*.
 
 ```sh
 curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
