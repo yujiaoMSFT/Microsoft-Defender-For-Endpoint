@@ -33,7 +33,9 @@ https://learn.microsoft.com/en-us/defender-endpoint/validate-antimalware
 ### Anttivirus (Behavior moniroing)
 
 #### How to verify BM is enabled
-Run below command in terminal
+Before testing of Behavior Monitoring, make sure the feature is enabled on the device.
+
+You can run below command in terminal to verify the status.
 ```sh
 mdatp health --details features
 ```
