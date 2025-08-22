@@ -17,6 +17,17 @@ If real-time protection is enabled, the output will be *true*.
 ```sh
 curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
 ```
+You can veriry detected malicious file by following.
+**Defender on macOS UI**
+
+
+**Terminal**  
+```sh
+mdatp threat list
+```
+**Defender Portal**
+Incident page
+
 https://learn.microsoft.com/en-us/defender-endpoint/validate-antimalware
 
 - Anttivirus (Behavior moniroing)
