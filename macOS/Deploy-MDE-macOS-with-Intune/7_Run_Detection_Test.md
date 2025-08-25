@@ -1,8 +1,8 @@
 # 7: Run detection test
 
 ## What's covered in this section
-- Run follwoing detection test to verify deteciton capabilities
-    - Antivirus (Real Time Protection)
+- Run the following detection tests to verify Defender’s detection capabilities:
+    - Antivirus (Real-Time Protection)
     - Antivirus (Behavior Monitoring)
     - EDR (Endpint Detection & Response)
 
