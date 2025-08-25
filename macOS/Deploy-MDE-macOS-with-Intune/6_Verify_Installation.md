@@ -38,17 +38,13 @@ Once all onboarding processes are completed, let's verify it on macOS device.
     ```
      ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/2b1b79e008d6081ed760683a624f7cbf7f2fd1fc/Images/macOS/MDEmacOS-CLI3.png)
 
-    Also madtp command has many configuration options. Run below command.
+5.  Lastly, madtp command has many configuration options. Run below command.
     ```sh
     mdatp --help
     ```
-    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4fbe5e76c8e8128aa2a6390d6db4c0fb20af52bf/Images/macOS/MDEmacOS-CLI2.png)
-    Also check folloing [public documentation](https://learn.microsoft.com/en-us/defender-endpoint/mac-resources#configuring-from-the-command-line) for details
+    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4fbe5e76c8e8128aa2a6390d6db4c0fb20af52bf/Images/macOS/MDEmacOS-CLI2.png)  
 
-    
-7.  Additional notes, you could check many details from mdatp command. Pleaes built in help in command or see below documantations
-    https://learn.microsoft.com/en-us/defender-endpoint/mac-resources  
-    
+    Also check folloing [public documentation](https://learn.microsoft.com/en-us/defender-endpoint/mac-resources#configuring-from-the-command-line) for details    
     
 
 ## Step3: Check device object in Defender Portal
