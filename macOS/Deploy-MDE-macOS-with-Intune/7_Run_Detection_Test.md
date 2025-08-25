@@ -46,11 +46,11 @@ curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
 
 ### Step 5: Verify Incident / Alert in Defender Portal
 
-1. Open Defender portal
-2. Go to **Incidents & alerts** > **Incidents**
-3. New indident is created.
+1. Open the [Microsoft Defender portal](https://security.microsoft.com)
+2. Navigate to **Incidents & alerts** > **Incidents**
+3. A new indident should be listed.
   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/a2af008515d23c94ce6d090ec117654681c472fa/Images/macOS/MDEmacOS-Incident1.png)
-4. Click the indident name
+4. Click the indident name to view full details.
   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/a2af008515d23c94ce6d090ec117654681c472fa/Images/macOS/MDEmacOS-Incident2.png)
 
 
