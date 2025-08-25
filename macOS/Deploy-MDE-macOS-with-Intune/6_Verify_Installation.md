@@ -30,9 +30,7 @@ Once all previous onboarding steps are complete, verify the setup on a macOS dev
     ```
 3.  Review the MDE health status details. If MDE on macOS is running correctly, the healthy status should be set to true.
     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4fbe5e76c8e8128aa2a6390d6db4c0fb20af52bf/Images/macOS/MDEmacOS-CLI1.png)
-   
-    > If you’d like to learn about each returned value and its description for the *mdatp health* command, please refer to the [public documentation](https://learn.microsoft.com/en-us/defender-endpoint/mac-health-status) 
-
+       > If you’d like to learn about each returned value and its description for the *mdatp health* command, please refer to the [public documentation](https://learn.microsoft.com/en-us/defender-endpoint/mac-health-status) 
 4.  This step is optional, but if you run the following command, you’ll see additional options for the health command.   
     ```sh
     mdatp health --help
