@@ -34,7 +34,7 @@ Once all onboarding processes are completed, let's verify it on macOS device.
     ```sh
     mdatp health --help
     ```
-     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4fbe5e76c8e8128aa2a6390d6db4c0fb20af52bf/Images/macOS/MDEmacOS-CLI1.png)
+     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4fbe5e76c8e8128aa2a6390d6db4c0fb20af52bf/Images/macOS/MDEmacOS-CLI3.png)
 
    Please refere to [Troubleshoot agent health issues](https://learn.microsoft.com/en-us/defender-endpoint/mac-health-status) for each returned values and description and also troubleshooting
    
