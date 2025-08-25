@@ -1,8 +1,10 @@
 # 7: Run detection test
 
 ## What's covered in this section
-- Run detection test to verify deteciton capability (AV, EDRM, Behavior Monitoring)
-- Run a detection test to confirm successful onboarding
+- Run follwoing detection test to verify deteciton capabilities
+    - Antivirus (Real Time Protection)
+    - Antivirus (Behavior Monitoring)
+    - EDR (Endpint Detection & Response)
 
 ## Detection test - Antivirus (Real Time Pritection - aka RTP)
 
