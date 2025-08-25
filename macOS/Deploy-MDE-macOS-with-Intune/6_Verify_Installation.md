@@ -33,7 +33,7 @@ This section covers the following methods to check the MDE installation on macOS
     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4fbe5e76c8e8128aa2a6390d6db4c0fb20af52bf/Images/macOS/MDEmacOS-CLI1.png)
        > If you’d like to learn about each returned value and its description for the *mdatp health* command, please refer to the [public documentation](https://learn.microsoft.com/en-us/defender-endpoint/mac-health-status) 
 4.  Additional step (option 1):  
-    If you run the following command, you’ll see additional options for the health command.   
+    To see more options for the health command, run the following command:    
     ```sh
     mdatp health --help
     ```
