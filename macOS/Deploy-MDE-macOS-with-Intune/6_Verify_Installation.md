@@ -32,13 +32,15 @@ This section covers the following methods to check the MDE installation on macOS
 3.  Review the MDE health status details. If MDE on macOS is running correctly, the healthy status should be set to true.
     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4fbe5e76c8e8128aa2a6390d6db4c0fb20af52bf/Images/macOS/MDEmacOS-CLI1.png)
        > If you’d like to learn about each returned value and its description for the *mdatp health* command, please refer to the [public documentation](https://learn.microsoft.com/en-us/defender-endpoint/mac-health-status) 
-4.  This step is optional, but if you run the following command, you’ll see additional options for the health command.   
+4.  Additional step (option 1):  
+    If you run the following command, you’ll see additional options for the health command.   
     ```sh
     mdatp health --help
     ```
      ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/2b1b79e008d6081ed760683a624f7cbf7f2fd1fc/Images/macOS/MDEmacOS-CLI3.png)
 
-5.  Lastly, madtp command has many configuration options. Run below command.
+5. Additional step (option 2):  
+   The mdatp command offers many configuration options. To view the built-in help and a list of available command-line references, run the following command:
     ```sh
     mdatp --help
     ```
