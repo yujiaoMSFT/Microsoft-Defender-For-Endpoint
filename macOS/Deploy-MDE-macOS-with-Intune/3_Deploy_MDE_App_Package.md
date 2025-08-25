@@ -26,7 +26,7 @@
 
 ## Step 2: Verify app deployment
 
-> It may take a while to installation status to be updated in the Intune portal
+> It may take a while to installation status to be updated in the Intune portal.  
 > You can proceed to next section, and come back here to proceed verifying installatino status
 
 1. In Intune portal, go to **Apps** > **Monitor** > **Platforms** > **macOS**
