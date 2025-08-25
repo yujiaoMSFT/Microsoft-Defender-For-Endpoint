@@ -51,9 +51,6 @@ This section covers the following methods to check the MDE installation on macOS
 
 ## Step 3: Checking the macOS device inventory in Defender Portal
 
-Check device inventory
-Response actions
-
 1. Open [Microsoft Defender portal](https://security.microsoft.com)
 2. Navigate to **Assets** > **Devices**
 3. On the **Device Inventory** page, click the **Computers & Mobile** tab.
