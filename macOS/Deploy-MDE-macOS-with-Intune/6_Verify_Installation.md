@@ -8,12 +8,14 @@
 
 Once all onboarding processes are completed, let's verify it on macOS device.
 
-## Installation check (macOS User Interface)
-In the task bar, you will see Defender icon.  Now lets click **Open Microsoft Defender** to launch Defender application.
-![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/d184d056be905a9f2b8ab98055738b89483134d9/images/MDE-MacOS-macOS-UI2.png)
+## Launching Microsoft Defender on macOS check (macOS User Interface)
 
-You will see Defender for macOS application launch.
-![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/5fbcdb58ada164b6c4c14940589d55495240bd52/images/MDE-MacOS-macOS-UI4.png)
+1.  Locate the Defender icon in the task bar.
+   ![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/d184d056be905a9f2b8ab98055738b89483134d9/images/MDE-MacOS-macOS-UI2.png)
+
+2. Click the icon, then select "Open Microsoft Defender" to launch the application.
+   You will see Defender for macOS application launch.
+   ![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/5fbcdb58ada164b6c4c14940589d55495240bd52/images/MDE-MacOS-macOS-UI4.png)
 
 To verify policy assignment, navigate to **System Settings** > **General** > **Device Management** in the macOS user interface.
 
