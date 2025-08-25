@@ -14,8 +14,8 @@ Once all onboarding processes are completed, let's verify it on macOS device.
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/31330673aa411c6f4395a21dca8d108142661c37/Images/macOS/MDEMacOS-UI1.png)
 
 2. You will see Defender for macOS application launch. In this interface, you can view key status details, including:  
+   -   Protection History (Detected malware details)
    -   AV Scan History
-   -   Protection History
    -   Protection Settings (such as real-time protection and exclusions)
    -   Signature Update Status  
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/31330673aa411c6f4395a21dca8d108142661c37/Images/macOS/MDEMacOS-UI2.png)
