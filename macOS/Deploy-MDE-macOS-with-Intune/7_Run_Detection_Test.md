@@ -27,6 +27,8 @@ curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
 
 ### Step 3: Verify detected malicious file (Defender macOS UI)
 
+![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/1d7a74bf9fe05a45b09bd40c21226cc70fae31e7/Images/macOS/AVDetection-macOS1.png)
+![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/1d7a74bf9fe05a45b09bd40c21226cc70fae31e7/Images/macOS/AVDetection-macOS2.png)
 
 ### Step 4: Verify detected malicious file (Terminal)
 1. Open terminal in macOS
@@ -34,7 +36,7 @@ curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
    ```sh
    mdatp threat list
    ```
-4. aaa
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/1d7a74bf9fe05a45b09bd40c21226cc70fae31e7/Images/macOS/AVDetection-CLI1.png)
 
 ### Step 5: Verify Incident / Alert in Defender Portal
 
