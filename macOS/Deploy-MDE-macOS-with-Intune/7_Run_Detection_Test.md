@@ -46,14 +46,13 @@ curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
 
 ### Step 5: Verify Incident / Alert in Defender Portal
 
-You can veriry by following.
-**Defender on macOS UI**
+1. Open Defender portal
+2. Go to **Incidents & alerts** > **Incidents**
+3. New indident is created.
+  ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/a2af008515d23c94ce6d090ec117654681c472fa/Images/macOS/MDEmacOS-Incident1.png)
+4. Click the indident name
+  ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/a2af008515d23c94ce6d090ec117654681c472fa/Images/macOS/MDEmacOS-Incident2.png)
 
-
-**Terminal**  
-
-**Defender Portal**
-Incident page
 
 https://learn.microsoft.com/en-us/defender-endpoint/validate-antimalware
 
