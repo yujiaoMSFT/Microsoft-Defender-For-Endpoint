@@ -25,8 +25,3 @@
 11. Click **Next**
 12. Click **Create**.
 13. Go to **Apps** > **Monitor** > **Platforms** > **macOS** and confirm MDE app is created.
-
-
-## Note
-use below if we skip assignment
-9. In **Assignments** page, click **Next** at this moment. (We will app assignments to the device group later, so fo now, let's skip this process)
