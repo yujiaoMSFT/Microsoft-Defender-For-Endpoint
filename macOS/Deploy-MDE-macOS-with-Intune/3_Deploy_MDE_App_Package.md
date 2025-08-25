@@ -12,9 +12,11 @@
 1. Open [Intune portal](https://aka.ms/memac)
 2. Go to **Apps** > **Monitor** > **Platforms** > **macOS**
 3. Click **Create** button.
-4. Click pull down menu in **App type** and you will see a list of apps. Select **macOS** under **Microsoft Defender for Endpoint**.
+4. Click pull down menu in **App type** and you will see a list of apps.  
+   Select **macOS** under **Microsoft Defender for Endpoint**.
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/0c640afed88d27c95f61c2e0e4ae21f58cf786ef/Images/macOS/IntuneMDEAppPackage1.png)
-6. You will see **Microsoft Defender for Endpoing (macOS)**. Click **Select** to continue.
+6. You will see **Microsoft Defender for Endpoing (macOS)**.  
+   Click **Select** to continue.
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/0c640afed88d27c95f61c2e0e4ae21f58cf786ef/Images/macOS/IntuneMDEAppPackage2.png)
 7. In **App information** page, use default value and click **Next** (Of course you can choose to change if needed)
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/0c640afed88d27c95f61c2e0e4ae21f58cf786ef/Images/macOS/IntuneMDEAppPackage3.png)
