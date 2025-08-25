@@ -1,9 +1,10 @@
 # 6: Verify Installation
 
 ## What's covered in this section
-- Check MDE app installation from macOS UI
-- Check MDE installation from terminal
-- Check E is installed and running on your macOS device.  
+In this section, we will cover following method to check MDE on macOS installation
+- MDE installation from macOS UI
+- MDE installation from terminal
+- MDE device inventory in Defender Portal  
 
 > This document was created using a Mac mini running macOS 15.5 with an Apple M4 chip.  
 > Please note that the macOS user interface may differ if you are using a different version of macOS.
