@@ -29,10 +29,16 @@ Once all onboarding processes are completed, let's verify it on macOS device.
     ```
 3.  Review the MDE health status details. If MDE on macOS is running correctly, the healthy status should be set to true.
     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4fbe5e76c8e8128aa2a6390d6db4c0fb20af52bf/Images/macOS/MDEmacOS-CLI1.png)
-    
-    Please refere to [Troubleshoot agent health issues](https://learn.microsoft.com/en-us/defender-endpoint/mac-health-status) for each returned values and description and also troubleshooting
+        
+4.  This is optional, but if you run following command, you will see more options about health command. 
+    ```sh
+    mdatp health --help
+    ```
+     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4fbe5e76c8e8128aa2a6390d6db4c0fb20af52bf/Images/macOS/MDEmacOS-CLI1.png)
 
-4. Additional notes, you could check many details from mdatp command. Pleaes built in help in command or see below documantations
+   Please refere to [Troubleshoot agent health issues](https://learn.microsoft.com/en-us/defender-endpoint/mac-health-status) for each returned values and description and also troubleshooting
+   
+6. Additional notes, you could check many details from mdatp command. Pleaes built in help in command or see below documantations
     https://learn.microsoft.com/en-us/defender-endpoint/mac-resources  
     
     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4fbe5e76c8e8128aa2a6390d6db4c0fb20af52bf/Images/macOS/MDEmacOS-CLI2.png)
