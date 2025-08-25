@@ -13,8 +13,7 @@ Once all onboarding processes are completed, let's verify it on macOS device.
 1.  Locate the **Defender icon** in the task bar.  Click the icon, then select **Open Microsoft Defender** to launch the application.  
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/31330673aa411c6f4395a21dca8d108142661c37/Images/macOS/MDEMacOS-UI1.png)
 
-2. You will see Defender for macOS application launch.  
-   In this interface, you can view key status details, including:  
+2. You will see Defender for macOS application launch. In this interface, you can view key status details, including:  
    -   AV Scan History
    -   Protection History
    -   Protection Settings (such as real-time protection and exclusions)
