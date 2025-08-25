@@ -7,7 +7,9 @@
 
 ## Run detection test
 
-## Detection test - Antivirus (Real time scanning)
+## Detection test - Antivirus (Real Time Pritection - aka RTP)
+
+### Verify Real Time Protection (RTP) status
 Run below command in terminal to confirm real time protection status
 ```sh
 mdatp health --field real_time_protection_enabled
@@ -17,6 +19,12 @@ If real-time protection is enabled, the output will be *true*.
 ```sh
 curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
 ```
+### Emable Real Time Protection (RTP) 
+
+enable
+```sh
+sudo mdatp config real_time_protection_enabled --value enabled
+
 You can veriry detected malicious file by following.
 **Defender on macOS UI**
 
