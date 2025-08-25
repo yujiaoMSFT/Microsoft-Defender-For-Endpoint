@@ -29,10 +29,10 @@ curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
 
 1. Launch Defender for macOS application on your macOS device.
 2. Click **Protection History** in the app
-3. You will see Protection hisotry and quarantined should be listed
+3. Under **Quarantined threats**, quarantined file should be listed
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/1d7a74bf9fe05a45b09bd40c21226cc70fae31e7/Images/macOS/AVDetection-macOS1.png)
-4. Click **See details**
-5. You will see additional file details such as file path
+4. Click **See details** button. (You will be asked to enter admin credential)
+5. You will see additional informaiton about the quarantined file
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/1d7a74bf9fe05a45b09bd40c21226cc70fae31e7/Images/macOS/AVDetection-macOS2.png)
 
 ### Step 4: Verify detected malicious file (Terminal)
