@@ -24,7 +24,7 @@
 11. Click **Next**
 12. Click **Create**.
 
-## Step 2: Verify app deployment
+## Step 2: Verify MDE App package deployment
 
 > It may take a while to installation status to be updated in the Intune portal.  
 > You can proceed to next section, and come back here to proceed verifying installatino status
