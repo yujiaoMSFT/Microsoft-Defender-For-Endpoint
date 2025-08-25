@@ -20,21 +20,19 @@ Once all onboarding processes are completed, let's verify it on macOS device.
    -   Signature Update Status  
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/31330673aa411c6f4395a21dca8d108142661c37/Images/macOS/MDEMacOS-UI2.png)
 
-To verify policy assignment, navigate to **System Settings** > **General** > **Device Management** in the macOS user interface.
+## Run mdatp health command
 
-![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/8d80da4ce91666ebe0a3bde63e4f05dea7917c8a/images/MDE-MacOS-DeviceManagement.png)
+1.  Open Launchpad, then search for **Terminal**. Once it's found, click to launch and start the Terminal.
+2.  Type **mdatp health** and hit enter
+3.  You will see MDE health status in details. If MDE on macOS is running correctlym, heath status should be set as true.  
+    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4fbe5e76c8e8128aa2a6390d6db4c0fb20af52bf/Images/macOS/MDEmacOS-CLI1.png)
+    
+    If you have any health issues, please check troubleshooting documentation.
 
-Also check folloiwng location
- **System Settings** > **Privacy & Security** > **Full Disk Access**  
- **System Settings** > **Privacy & Security** > **File & Folders**
-
-## Installation check (Command line Interface)
-
-Run mdatp health command
-  
-![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/e32b2413d3130f2605127b619394dbc5dc4ea833/images/MDE-MacOS-MDATP-Health.png)
-
-- Troubleshooting
+    You could check many details from mdatp command. Pleaes built in help in command or see below documantations
+    https://learn.microsoft.com/en-us/defender-endpoint/mac-resources  
+    
+    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4fbe5e76c8e8128aa2a6390d6db4c0fb20af52bf/Images/macOS/MDEmacOS-CLI2.png)
 
 ## Defender Portal
 
