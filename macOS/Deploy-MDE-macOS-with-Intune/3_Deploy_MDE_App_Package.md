@@ -2,7 +2,7 @@
 
 ## What's covered in this section
 - **Create** an **MDE application package** for macOS in the Intune portal and **assign** it to the target group.
-- Verfiy **MDE application package deployment status** in Intune portal
+- **Verfiy** MDE application package **deployment status** in Intune portal
 
 ## Prerequistie
 - Access permission to Intune portal
