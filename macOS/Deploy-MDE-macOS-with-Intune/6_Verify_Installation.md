@@ -9,7 +9,7 @@ Once all previous onboarding steps are complete, verify the setup on a macOS dev
 > This document was created using a Mac mini running macOS 15.5 with an Apple M4 chip.  
 > Please note that the macOS user interface may differ if you are using a different version of macOS.
 
-## Step1: Launching Microsoft Defender on macOS
+## Step 1: Launching Microsoft Defender on macOS
 
 1.  Locate the **Defender icon** in the task bar.  Click the icon, then select **Open Microsoft Defender** to launch the application.  
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/31330673aa411c6f4395a21dca8d108142661c37/Images/macOS/MDEMacOS-UI1.png)
@@ -21,7 +21,7 @@ Once all previous onboarding steps are complete, verify the setup on a macOS dev
    -   Signature Update Status  
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/31330673aa411c6f4395a21dca8d108142661c37/Images/macOS/MDEMacOS-UI2.png)
 
-## Step2: Run mdatp health command
+## Step 2: Run mdatp health command
 
 1.  Open Launchpad, then search for **Terminal**. Once it's found, click to launch and start the Terminal.
 2.  Type the following command and press Enter:
@@ -46,7 +46,7 @@ Once all previous onboarding steps are complete, verify the setup on a macOS dev
     Also check folloing [public documentation](https://learn.microsoft.com/en-us/defender-endpoint/mac-resources#configuring-from-the-command-line) for details    
     
 
-## Step3: Check device object in Defender Portal
+## Step 3: Check device object in Defender Portal
 
 Check device inventory
 Response actions
