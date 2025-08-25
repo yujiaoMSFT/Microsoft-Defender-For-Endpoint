@@ -53,7 +53,7 @@ Response actions
 
 1. Open [Microsoft Defender portal](https://security.microsoft.com)
 2. Navigate to **Assets** > **Devices**
-3. ON the **Device Inventory** page, click the **Computers & Mobile** tab.
+3. On the **Device Inventory** page, click the **Computers & Mobile** tab.
 4. Locate your macOS device in the list of devices. If nessesary use the **search box** or **filter options**:
    -   Click **filter** menu
    -   Select **macOS** under **OS platform**
