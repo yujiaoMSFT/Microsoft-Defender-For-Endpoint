@@ -36,6 +36,7 @@ curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
    ```sh
    mdatp threat list
    ```
+3. You will see file details like below screenshot:
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/1d7a74bf9fe05a45b09bd40c21226cc70fae31e7/Images/macOS/AVDetection-CLI1.png)
 
 ### Step 5: Verify Incident / Alert in Defender Portal
