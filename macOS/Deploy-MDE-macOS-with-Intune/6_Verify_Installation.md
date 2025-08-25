@@ -32,7 +32,7 @@ Once all onboarding processes are completed, let's verify it on macOS device.
     
     If you have any health issues, please check troubleshooting documentation.
 
-    You could check many details from mdatp command. Pleaes built in help in command or see below documantations
+4. Additional notes, you could check many details from mdatp command. Pleaes built in help in command or see below documantations
     https://learn.microsoft.com/en-us/defender-endpoint/mac-resources  
     
     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4fbe5e76c8e8128aa2a6390d6db4c0fb20af52bf/Images/macOS/MDEmacOS-CLI2.png)
