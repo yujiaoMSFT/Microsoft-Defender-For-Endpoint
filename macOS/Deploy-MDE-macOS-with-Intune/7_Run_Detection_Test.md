@@ -18,7 +18,6 @@ If real-time protection is enabled, the output will be *true*.
 
 
 ### Emable Real Time Protection (RTP) 
-
 enable
 ```sh
 sudo mdatp config real_time_protection_enabled --value enabled
