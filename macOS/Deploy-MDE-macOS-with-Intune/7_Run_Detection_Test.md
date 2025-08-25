@@ -14,10 +14,10 @@ Run below command in terminal to confirm real time protection status
 ```sh
 mdatp health --field real_time_protection_enabled
 ```
-If real-time protection is enabled, the output will be *true*.
-> By default configuration, Real time protection is enabled.
+If real-time protection is enabled, the output will be *true*.  
 
-### Optinal Steps: Emable Real Time Protection (RTP) 
+> By default configuration, Real time protection is enabled.
+> If RTP is disabled, you can run following command to enable it.
 enable
 ```sh
 sudo mdatp config real_time_protection_enabled --value enabled
