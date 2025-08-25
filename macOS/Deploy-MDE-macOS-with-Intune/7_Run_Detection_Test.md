@@ -54,7 +54,8 @@ curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/a2af008515d23c94ce6d090ec117654681c472fa/Images/macOS/MDEmacOS-Incident1.png)
 4. Click the indident name to view full details.
   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/a2af008515d23c94ce6d090ec117654681c472fa/Images/macOS/MDEmacOS-Incident2.png)
-
+5. Once it's completed, click **Manage Incident**. Set status as Resolved and save the incident to close.
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/5dde3b3c2d5fefee019f7cd89dc16780ea891c89/Images/macOS/MDEmacOS-Incident3.png)
 
 https://learn.microsoft.com/en-us/defender-endpoint/validate-antimalware
 
