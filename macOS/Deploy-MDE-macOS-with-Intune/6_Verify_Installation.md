@@ -10,7 +10,7 @@ Once all onboarding processes are completed, let's verify it on macOS device.
 
 ## Launching Microsoft Defender on macOS check (macOS User Interface)
 
-1.  Locate the Defender icon in the task bar.  Click the icon, then select **Open Microsoft Defender** to launch the application.  
+1.  Locate the **Defender icon** in the task bar.  Click the icon, then select **Open Microsoft Defender** to launch the application.  
    ![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/d184d056be905a9f2b8ab98055738b89483134d9/images/MDE-MacOS-macOS-UI2.png)
 
 2. You will see Defender for macOS application launch.
