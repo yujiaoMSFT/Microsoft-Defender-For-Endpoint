@@ -18,12 +18,11 @@ If RTP is enabled, the output will be *true*.
 
 > By default configuration, RTP is enabled.  
 > If RTP is disabled, you can run following command to enable it.
-enable
 ```sh
 sudo mdatp config real_time_protection_enabled --value enabled
 ```
 
-### Step 1: Downlaod test file (Eicar) for detection
+### Step 2: Downlaod test file (Eicar) for detection
 Run below command in termina
 ```sh
 curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
