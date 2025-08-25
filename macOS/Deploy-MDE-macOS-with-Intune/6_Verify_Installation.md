@@ -1,7 +1,9 @@
 # 6: Verify Installation
 
 ## What's covered in this section
-- Check that MDE is installed and running on your macOS device.  
+- Check MDE app installation from macOS UI
+- Check MDE installation from terminal
+- Check E is installed and running on your macOS device.  
 
 > This document was created using a Mac mini running macOS 15.5 with an Apple M4 chip.  
 > Please note that the macOS user interface may differ if you are using a different version of macOS.
