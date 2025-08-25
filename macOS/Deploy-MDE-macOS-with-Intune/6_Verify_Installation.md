@@ -51,6 +51,13 @@ Once all previous onboarding steps are complete, verify the setup on a macOS dev
 Check device inventory
 Response actions
 
+1. Open [Microsoft Defender portal](https://security.microsoft.com)
+2. Go to **Assets** > **Devices**
+3. Click **Computers & Mobile** tab in the **Device Inventory** page
+4. Check your macOS device from the listed devices. If nessesary use the surch box or filter option to find the device. For example, click filter menu, and select macOS from **OS platform** and click Apply button.
+5. Click th edevice to see the device details
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/08328932b1a481db1ca843d4b3d4b2180b80c174/Images/macOS/MDEmacOS-DeviceInventory1.png)
+
 ## Enabled feature by default (Without policy assignment)
 
 Below features are enabled by default (You can change settings via Intune, MDE-attach or command line)
