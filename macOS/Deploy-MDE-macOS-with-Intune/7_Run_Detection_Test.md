@@ -4,9 +4,6 @@
 - Run detection test to verify deteciton capability (AV, EDRM, Behavior Monitoring)
 - Run a detection test to confirm successful onboarding
 
-
-## Run detection test
-
 ## Detection test - Antivirus (Real Time Pritection - aka RTP)
 
 ### Step 1: Verify Real Time Protection (RTP) status
