@@ -28,15 +28,25 @@ Run below command in termina
 curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
 ```
 
+### Step 3: Verify detected malicious file (Defender macOS UI)
 
-You can veriry detected malicious file by following.
+
+### Step 4: Verify detected malicious file (Terminal)
+1. Open terminal in macOS
+2. Run following command
+   ```sh
+   mdatp threat list
+   ```
+4. aaa
+
+### Step 5: Verify Incident / Alert in Defender Portal
+
+You can veriry by following.
 **Defender on macOS UI**
 
 
 **Terminal**  
-```sh
-mdatp threat list
-```
+
 **Defender Portal**
 Incident page
 
