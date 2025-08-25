@@ -16,7 +16,7 @@ mdatp health --field real_time_protection_enabled
 ```
 If real-time protection is enabled, the output will be *true*.  
 
-> By default configuration, Real time protection is enabled.
+> By default configuration, Real time protection is enabled.  
 > If RTP is disabled, you can run following command to enable it.
 enable
 ```sh
