@@ -10,13 +10,13 @@
 ## Detection test - Antivirus (Real Time Pritection - aka RTP)
 
 ### Step 1: Verify Real Time Protection (RTP) status
-Run below command in terminal to confirm real time protection status
+Run below command in terminal to confirm real time protection (RTP) status
 ```sh
 mdatp health --field real_time_protection_enabled
 ```
-If real-time protection is enabled, the output will be *true*.  
+If RTP is enabled, the output will be *true*.  
 
-> By default configuration, Real time protection is enabled.  
+> By default configuration, RTP is enabled.  
 > If RTP is disabled, you can run following command to enable it.
 enable
 ```sh
