@@ -16,14 +16,19 @@ mdatp health --field real_time_protection_enabled
 ```
 If real-time protection is enabled, the output will be *true*.
 
-```sh
-curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
-```
+
 ### Emable Real Time Protection (RTP) 
 
 enable
 ```sh
 sudo mdatp config real_time_protection_enabled --value enabled
+
+### Downlaod test file (Eicar) for detection
+Run below command in termina
+```sh
+curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
+```
+
 
 You can veriry detected malicious file by following.
 **Defender on macOS UI**
