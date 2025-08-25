@@ -7,7 +7,7 @@
 
 ## Run detection test
 
-### Antivirus (Real time scanning)
+## Detection test - Antivirus (Real time scanning)
 Run below command in terminal to confirm real time protection status
 ```sh
 mdatp health --field real_time_protection_enabled
@@ -30,9 +30,9 @@ Incident page
 
 https://learn.microsoft.com/en-us/defender-endpoint/validate-antimalware
 
-### Anttivirus (Behavior moniroing)
+## Detection test -  Anttivirus (Behavior moniroing)
 
-#### How to verify BM is enabled
+### How to verify BM is enabled
 Before testing of Behavior Monitoring, make sure the feature is enabled on the device.
 
 You can run below command in terminal to verify the status.
@@ -55,6 +55,6 @@ sudo mdatp config behavior-monitoring --value disabled
 
 https://learn.microsoft.com/en-us/defender-endpoint/demonstration-behavior-monitoring
 
-### EDR detection
+## Detection test - EDR
 - EDR functionality
 https://learn.microsoft.com/en-us/defender-endpoint/edr-detection
