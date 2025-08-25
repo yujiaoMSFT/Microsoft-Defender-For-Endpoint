@@ -23,8 +23,11 @@ Once all onboarding processes are completed, let's verify it on macOS device.
 ## Run mdatp health command
 
 1.  Open Launchpad, then search for **Terminal**. Once it's found, click to launch and start the Terminal.
-2.  Type **mdatp health** and hit enter
-3.  You will see MDE health status in details. If MDE on macOS is running correctlym, heath status should be set as true.  
+2.  Type the following command and press Enter:
+    ```sh
+    mdatp health
+    ```
+3.  Review the MDE health status details. If MDE on macOS is running correctly, the healthy status should be set to true.
     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4fbe5e76c8e8128aa2a6390d6db4c0fb20af52bf/Images/macOS/MDEmacOS-CLI1.png)
     
     If you have any health issues, please check troubleshooting documentation.
