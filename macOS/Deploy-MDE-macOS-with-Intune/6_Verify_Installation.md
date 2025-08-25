@@ -1,11 +1,10 @@
 # 6: Verify Installation
 
 ## What's covered in this section
-Once all previous onboarding processes are completed, let's verify it on macOS device.
-In this section, we will cover following method to check MDE on macOS installation
-- MDE installation from macOS UI
-- MDE installation from terminal
-- MDE device inventory in Defender Portal  
+Once all previous onboarding steps are complete, verify the setup on a macOS device. In this section, we will cover the following methods to check the MDE installation on macOS:
+- Verifying MDE installation from the macOS UI
+- Verifying MDE installation using the terminal
+- Checking the device inventory in the Microsoft Defender portal
 
 > This document was created using a Mac mini running macOS 15.5 with an Apple M4 chip.  
 > Please note that the macOS user interface may differ if you are using a different version of macOS.
