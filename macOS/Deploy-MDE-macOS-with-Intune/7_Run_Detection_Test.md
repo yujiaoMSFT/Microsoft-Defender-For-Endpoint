@@ -84,6 +84,38 @@ sudo mdatp config behavior-monitoring --value enabled
 ```
 ### Step 2: Create Test file for Behavior Monitoirng detection
 
+1. Open terminal on your macOS device.
+2. Run the following command to create a test script file:
+   ```sh
+   touch BM_test.sh
+   ```
+3. Run the following command to open nano editor:
+   ```sh
+   nano nanoBM_test.sh
+   ```
+4. Nano editor opens. hit "i" key to start input.
+5. Paste the following text as script 
+    ```sh
+   #! /usr/bin/bash
+   echo " " >> /tmp/9a74c69a-acdc-4c6d-84a2-0410df8ee480.txt
+   echo " " >> /tmp/f918b422-751c-423e-bfe1-dbbb2ab4385a.txt
+   sleep 5
+    ```
+6. Hit **control + X** key to exit. Hit Y to save the file. Y
+7. Run following command to verify script is correctly copied to the file
+   ```sh
+   cat nanoBM_test.sh
+   ```
+8. Run below to make the command exacutable
+  ```sh
+  sudo chmod u+x BM_test.sh
+  ```
+9. Run the bash script
+  ```sh
+   sudo bash BM_test.sh
+  ```
+
+ 
 **Reference:**  
 [Behavior Monitoring demonstration](https://learn.microsoft.com/en-us/defender-endpoint/demonstration-behavior-monitoring)
 
