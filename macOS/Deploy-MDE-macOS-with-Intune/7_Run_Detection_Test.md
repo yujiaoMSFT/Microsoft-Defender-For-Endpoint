@@ -22,7 +22,7 @@ sudo mdatp config real_time_protection_enabled --value enabled
 ```
 
 ### Step 2: Downlaod test file (Eicar) for detection
-Run below command in termina
+Run below command in terminal
 ```sh
 curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
 ```
