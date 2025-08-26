@@ -9,7 +9,7 @@
 ## Detection test 1: Antivirus (Real Time Pritection - aka RTP)
 
 ### Step 1: Verify Real Time Protection (RTP) status
-Run below command in terminal to confirm real time protection (RTP) status
+Open **Terminal** and run the following command to check the status of Real-Time Protectin (RTP).
 ```sh
 mdatp health --field real_time_protection_enabled
 ```
@@ -68,8 +68,7 @@ curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
 > For more details, Please refer to official [blog announcement](https://techcommunity.microsoft.com/blog/microsoftdefenderatpblog/behavior-monitoring-is-now-generally-available-for-microsoft-defender-for-endpoi/4415697) and [public document](https://learn.microsoft.com/en-us/defender-endpoint/behavior-monitor-macos)
 
 ### Step 1: Verify Behavior Monitoring status
-
-Run below command in terminal to confirm Behavior Monitoirng status
+Open **Terminal** and run the following command to check the status of Behavior Monitoirng.
 ```sh
 mdatp health --details features
 ```
@@ -78,23 +77,22 @@ You will see status of Behavior Monitoirng
 behavior_monitoring     :"disabled"
 ```
 
-> By default configuration, Behavior Monitoirng is disabled.  
-> You can run following command to enable it.
+By default, Behavior Monitoirng is **disabled**.  To enable it run the following command
 ```sh
 sudo mdatp config behavior-monitoring --value enabled
 ```
-### Step 2: Create Test file for Behavior Monitoirng detection
+### Step 2: Create a Test file for Behavior Monitoirng Detection
 
-1. Open terminal on your macOS device.
+1. Open **Terminal** on your macOS device.
 2. Run the following command to create a test script file:
    ```sh
    touch BM_test.sh
    ```
-3. Run the following command to open nano editor:
+3. Open a file in **nano editor**.
    ```sh
    nano BM_test.sh
    ```
-4. Paste the following text to the **nano editor**
+4. Paste the following text to the editor.
     ```sh
    #! /usr/bin/bash
    echo " " >> /tmp/9a74c69a-acdc-4c6d-84a2-0410df8ee480.txt
@@ -102,17 +100,17 @@ sudo mdatp config behavior-monitoring --value enabled
    sleep 5
     ```
     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/e03beaf8c890116d2e603651f3506752222ce57b/Images/macOS/CreateBMTestFile1.png))
-6. Hit **control + X** key to exit. Hit Y and then enter save the file.
-7. Run following command to verify script is correctly copied to the file
+6. Press **control + X** to exit, then press **Y** and **Enter** to save the file.
+7. Run following command to verify script content.
    ```sh
    cat BM_test.sh
    ```
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/e03beaf8c890116d2e603651f3506752222ce57b/Images/macOS/CreateBMTestFile3.png)
-8. Run below to make the command executable
+8. Run following command to make the script executable
    ```sh
    sudo chmod u+x BM_test.sh
    ```
-9. Run the bash script
+9. Run the script
     ```sh
     sudo bash BM_test.sh
     ```
