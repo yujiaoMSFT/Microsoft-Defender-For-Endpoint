@@ -74,7 +74,7 @@ mdatp health --details features
 ```
 You will see status of Behavior Monitoirng
 ```sh
-behavior_monitoring     :"enabled"
+behavior_monitoring     :"disabled"
 ```
 
 > By default configuration, Behavior Monitoirng is disabled.  
