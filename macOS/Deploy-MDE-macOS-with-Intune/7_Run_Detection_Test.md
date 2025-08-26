@@ -107,13 +107,13 @@ sudo mdatp config behavior-monitoring --value enabled
    cat nanoBM_test.sh
    ```
 8. Run below to make the command exacutable
-  ```sh
-  sudo chmod u+x BM_test.sh
-  ```
+   ```sh
+   sudo chmod u+x BM_test.sh
+   ```
 9. Run the bash script
-  ```sh
+   ```sh
    sudo bash BM_test.sh
-  ```
+   ```
 
  
 **Reference:**  
