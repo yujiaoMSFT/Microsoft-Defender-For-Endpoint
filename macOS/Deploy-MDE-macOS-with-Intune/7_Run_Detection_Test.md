@@ -87,8 +87,8 @@ sudo mdatp config behavior-monitoring --value enabled
 [Behavior Monitoring demonstration](https://learn.microsoft.com/en-us/defender-endpoint/demonstration-behavior-monitoring)
 
 ## Detection test 3: EDR (Endpoint Detection and Response)
-> EDR functionality is available only with a Defender for Endpoint Plan 2 (P2) license.  
-> If you are using Defender for Endpoint Plan 1 (P1), EDR capabilities are not included.
+> EDR functionality is available only with a **Defender for Endpoint Plan 2 (P2)** or **Defender for Business (MDB)** license.
+> If you are using **Defender for Endpoint Plan 1 (P1)**, EDR capabilities are **not included**.
 
 1. Open your browser and go to https://aka.ms/mdatpmacosdiy.
 2. The **MDATP MacOS DIY** file will be downloaded.
