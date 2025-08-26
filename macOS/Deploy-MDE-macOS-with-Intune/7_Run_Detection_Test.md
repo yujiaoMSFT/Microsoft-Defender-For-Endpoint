@@ -93,8 +93,8 @@ sudo mdatp config behavior-monitoring --value enabled
 3. Right click click the downloaded file, and select **open**.
    >  If your macOS device uses an Apple M-series chipset, you may be prompted to install Rosetta. Click Install (you will need to enter your administrator credentials).
 4. After Rosetta is installed, right-click the file again and select Open to proceed.
-5. Open [Defender portal](https://security.microsoft.com) and verify that an incident has been created.
-   > In the test environment, the incident name is **macOS EDR Test Alert**.
+5. Open [Defender portal](https://security.microsoft.com) and verify that an incident, **macOS EDR Test Alert** has been created.  
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/6aa2b122c8d783c577e193bb536e29d3ec4d3c2f/Images/macOS/MDEmacOS-Incident4.png)
 
 **Reference:**  
 [EDR detection test for verifying device's onboarding and reporting services](https://learn.microsoft.com/en-us/defender-endpoint/edr-detection)
