@@ -86,7 +86,7 @@ sudo mdatp config behavior-monitoring --value enabled
 **Reference:**  
 [Behavior Monitoring demonstration](https://learn.microsoft.com/en-us/defender-endpoint/demonstration-behavior-monitoring)
 
-## Detection test 3: EDR (E
+## Detection test 3: EDR (Endpoint Detection and Response)
 
 1. Open your browser and go to https://aka.ms/mdatpmacosdiy.
 2. The **MDATP MacOS DIY** file will be downloaded.
