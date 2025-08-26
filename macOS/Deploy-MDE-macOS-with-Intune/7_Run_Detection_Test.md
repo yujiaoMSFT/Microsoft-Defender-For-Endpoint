@@ -112,9 +112,9 @@ sudo mdatp config behavior-monitoring --value enabled
    sudo chmod u+x BM_test.sh
    ```
 10. Run the bash script
-   ```sh
-   sudo bash BM_test.sh
-   ```
+    ```sh
+    sudo bash BM_test.sh
+    ```
 ### Step 3: Verify detected malicious file (Defender macOS UI)
 
 1. Launch the ""MDE for macOS** application on your device.
