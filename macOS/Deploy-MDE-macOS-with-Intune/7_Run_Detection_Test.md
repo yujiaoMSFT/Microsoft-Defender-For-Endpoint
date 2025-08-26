@@ -115,7 +115,32 @@ sudo mdatp config behavior-monitoring --value enabled
    ```sh
    sudo bash BM_test.sh
    ```
-Step 3: Verify Incident / Alert in Defender Portal
+### Step 3: Verify detected malicious file (Defender macOS UI)
+
+1. Launch the ""MDE for macOS** application on your device.
+2. Click **Protection History** in the app
+3. Under **Quarantined threats**, confirm that the quarantined file is listed. (Category is *Suspicious Behavior*)
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/c2cb350ce611d0c6edcead1e575874c86d515b1b/Images/macOS/AVDetection-macOS3.png)
+4. Click **See details**. (You will be promptedd to enter your **administrator credentials**)
+6. Review the additional information about the quarantined file. (Type is *Process*)
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/c2cb350ce611d0c6edcead1e575874c86d515b1b/Images/macOS/AVDetection-macOS4.png
+
+### Step 4: Verify detected malicious file (Terminal)
+1. Open terminal on your macOS device.
+2. Run the following command:
+   ```sh
+   mdatp threat list
+   ```
+3. You will see the file details displayed, similar to the example screenshot below:
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/d8e83f916ebc0dda5b171632a22a990d8703422b/Images/macOS/AVDetection-CLI2.png)
+   
+### Step 5: Verify Incident / Alert in Defender Portal
+
+1. Open the [Microsoft Defender portal](https://security.microsoft.com)
+2. Navigate to **Incidents & alerts** > **Incidents**
+4. Click the indident name to view full details.
+  ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/d8e83f916ebc0dda5b171632a22a990d8703422b/Images/macOS/MDEmacOS-Incident5.png)
+
  
 **Reference:**  
 [Behavior Monitoring demonstration](https://learn.microsoft.com/en-us/defender-endpoint/demonstration-behavior-monitoring)
