@@ -103,18 +103,18 @@ sudo mdatp config behavior-monitoring --value enabled
    sleep 5
     ```
     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/e03beaf8c890116d2e603651f3506752222ce57b/Images/macOS/CreateBMTestFile1.png))
-7. Hit **control + X** key to exit. Hit Y to save the file. Y
-8. Hit Enter key to save it.
-9. Run following command to verify script is correctly copied to the file
+6. Hit **control + X** key to exit. Hit Y to save the file. Y
+7. Hit Enter key to save it.
+8. Run following command to verify script is correctly copied to the file
    ```sh
    cat BM_test.sh
    ```
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/e03beaf8c890116d2e603651f3506752222ce57b/Images/macOS/CreateBMTestFile3.png)
-10. Run below to make the command exacutable
+9. Run below to make the command executable
    ```sh
    sudo chmod u+x BM_test.sh
    ```
-11. Run the bash script
+10. Run the bash script
     ```sh
     sudo bash BM_test.sh
     ```
