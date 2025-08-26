@@ -1,4 +1,4 @@
-# 7: Run detection test
+# 7: Run Detection Test
 
 ## What's covered in this section
 - Run the following detection tests to verify Defender’s detection capabilities:
