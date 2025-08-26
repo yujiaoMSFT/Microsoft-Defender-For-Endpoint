@@ -123,7 +123,7 @@ sudo mdatp config behavior-monitoring --value enabled
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/c2cb350ce611d0c6edcead1e575874c86d515b1b/Images/macOS/AVDetection-macOS3.png)
 4. Click **See details**. (You will be promptedd to enter your **administrator credentials**)
 6. Review the additional information about the quarantined file. (Type is *Process*)
-   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/c2cb350ce611d0c6edcead1e575874c86d515b1b/Images/macOS/AVDetection-macOS4.png
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/c2cb350ce611d0c6edcead1e575874c86d515b1b/Images/macOS/AVDetection-macOS4.png)
 
 ### Step 4: Verify detected malicious file (Terminal)
 1. Open terminal on your macOS device.
