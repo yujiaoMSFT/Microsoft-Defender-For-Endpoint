@@ -91,7 +91,7 @@ sudo mdatp config behavior-monitoring --value enabled
    ```
 3. Run the following command to open nano editor:
    ```sh
-   nano nanoBM_test.sh
+   nano BM_test.sh
    ```
 4. Nano editor opens. hit "i" key to start input.
 5. Paste the following text as script 
