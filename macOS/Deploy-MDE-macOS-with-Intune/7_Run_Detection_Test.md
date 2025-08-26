@@ -1,12 +1,12 @@
 # 7: Run Detection Test
 
 ## What's covered in this section
-- Run the following detection tests to verify Defender’s detection capabilities:
+- Perform the following detection tests to validate MDE detection capabilities on macOS:
     - Antivirus (Real-Time Protection)
     - Antivirus (Behavior Monitoring)
     - EDR (Endpint Detection & Response)
 
-## Detection test - Antivirus (Real Time Pritection - aka RTP)
+## Detection test 1: Antivirus (Real Time Pritection - aka RTP)
 
 ### Step 1: Verify Real Time Protection (RTP) status
 Run below command in terminal to confirm real time protection (RTP) status
@@ -62,7 +62,7 @@ curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
 
 https://learn.microsoft.com/en-us/defender-endpoint/validate-antimalware
 
-## Detection test -  Anttivirus (Behavior moniroing)
+## Detection test 2: Anttivirus (Behavior moniroing)
 
 ### Step 1: Verify Behavior Monitoring status
 
@@ -84,6 +84,6 @@ sudo mdatp config behavior-monitoring --value enabled
 
 https://learn.microsoft.com/en-us/defender-endpoint/demonstration-behavior-monitoring
 
-## Detection test - EDR
+## Detection test 3: EDR (
 - EDR functionality
 https://learn.microsoft.com/en-us/defender-endpoint/edr-detection
