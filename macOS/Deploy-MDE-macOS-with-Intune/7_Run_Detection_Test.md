@@ -102,23 +102,26 @@ sudo mdatp config behavior-monitoring --value enabled
    echo " " >> /tmp/f918b422-751c-423e-bfe1-dbbb2ab4385a.txt
    sleep 5
     ```
-6. Hit **control + X** key to exit. Hit Y to save the file. Y
-7. Hit Enter key to save it.
-8. Run following command to verify script is correctly copied to the file
+    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/e03beaf8c890116d2e603651f3506752222ce57b/Images/macOS/CreateBMTestFile1.png))
+   
+7. Hit **control + X** key to exit. Hit Y to save the file. Y
+8. Hit Enter key to save it.
+9. Run following command to verify script is correctly copied to the file
    ```sh
    cat BM_test.sh
    ```
-9. Run below to make the command exacutable
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/e03beaf8c890116d2e603651f3506752222ce57b/Images/macOS/CreateBMTestFile3.png)
+10. Run below to make the command exacutable
    ```sh
    sudo chmod u+x BM_test.sh
    ```
-10. Run the bash script
+11. Run the bash script
     ```sh
     sudo bash BM_test.sh
     ```
 ### Step 3: Verify detected malicious file (Defender macOS UI)
 
-1. Launch the ""MDE for macOS** application on your device.
+1. Launch the **MDE for macOS** application on your device.
 2. Click **Protection History** in the app
 3. Under **Quarantined threats**, confirm that the quarantined file is listed. (Category is *Suspicious Behavior*)
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/c2cb350ce611d0c6edcead1e575874c86d515b1b/Images/macOS/AVDetection-macOS3.png)
