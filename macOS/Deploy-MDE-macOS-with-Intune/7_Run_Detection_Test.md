@@ -60,7 +60,8 @@ curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
    - Click Save to close the incident.
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/5dde3b3c2d5fefee019f7cd89dc16780ea891c89/Images/macOS/MDEmacOS-Incident3.png)
 
-https://learn.microsoft.com/en-us/defender-endpoint/validate-antimalware
+**Reference:**
+[Antivirus detection test for verifying device's onboarding and reporting services](https://learn.microsoft.com/en-us/defender-endpoint/validate-antimalware)
 
 ## Detection test 2: Anttivirus (Behavior moniroing)
 
@@ -82,7 +83,8 @@ sudo mdatp config behavior-monitoring --value enabled
 ```
 ### Step 2: Create Test file for Behavior Monitoirng detection
 
-https://learn.microsoft.com/en-us/defender-endpoint/demonstration-behavior-monitoring
+**Reference:**
+[Behavior Monitoring demonstration](https://learn.microsoft.com/en-us/defender-endpoint/demonstration-behavior-monitoring)
 
 ## Detection test 3: EDR (E
 
@@ -94,6 +96,5 @@ https://learn.microsoft.com/en-us/defender-endpoint/demonstration-behavior-monit
 5. Open [Defender portal](https://security.microsoft.com) and verify that an incident has been created.
    > In the test environment, the incident name is **macOS EDR Test Alert**.
 
-Reference:  
-EDR detection test for verifying device's onboarding and reporting services
-](https://learn.microsoft.com/en-us/defender-endpoint/edr-detection)
+**Reference:**
+[EDR detection test for verifying device's onboarding and reporting services](https://learn.microsoft.com/en-us/defender-endpoint/edr-detection)
