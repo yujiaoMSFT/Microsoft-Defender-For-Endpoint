@@ -94,5 +94,6 @@ https://learn.microsoft.com/en-us/defender-endpoint/demonstration-behavior-monit
 5. Open [Defender portal](https://security.microsoft.com) and verify that an incident has been created.
    > In the test environment, the incident name is **macOS EDR Test Alert**.
 
-- EDR functionality
-https://learn.microsoft.com/en-us/defender-endpoint/edr-detection
+Reference:  
+EDR detection test for verifying device's onboarding and reporting services
+](https://learn.microsoft.com/en-us/defender-endpoint/edr-detection)
