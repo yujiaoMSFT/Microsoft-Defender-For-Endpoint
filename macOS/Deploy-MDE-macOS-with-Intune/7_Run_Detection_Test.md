@@ -114,7 +114,7 @@ sudo mdatp config behavior-monitoring --value enabled
    ```sh
    sudo bash BM_test.sh
    ```
-
+Step 3: Verify Incident / Alert in Defender Portal
  
 **Reference:**  
 [Behavior Monitoring demonstration](https://learn.microsoft.com/en-us/defender-endpoint/demonstration-behavior-monitoring)
