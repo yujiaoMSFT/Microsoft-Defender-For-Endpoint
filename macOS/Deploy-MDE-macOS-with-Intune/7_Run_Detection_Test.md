@@ -64,6 +64,7 @@ curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
 [Antivirus detection test for verifying device's onboarding and reporting services](https://learn.microsoft.com/en-us/defender-endpoint/validate-antimalware)
 
 ## Detection test 2: Anttivirus (Behavior moniroing)
+> Behavior Monitoring for MDE macOS is reached to GA (General Availability) in June 2025. Please refer to [blog announcement](https://techcommunity.microsoft.com/blog/microsoftdefenderatpblog/behavior-monitoring-is-now-generally-available-for-microsoft-defender-for-endpoi/4415697) for details
 
 ### Step 1: Verify Behavior Monitoring status
 
