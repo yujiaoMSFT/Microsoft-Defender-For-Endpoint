@@ -93,8 +93,8 @@ sudo mdatp config behavior-monitoring --value enabled
    ```sh
    nano BM_test.sh
    ```
-4. Nano editor opens. hit "i" key to start input.
-5. Paste the following text as script 
+4. Nano editor opens. 
+5. Paste the following text to the nano editor 
     ```sh
    #! /usr/bin/bash
    echo " " >> /tmp/9a74c69a-acdc-4c6d-84a2-0410df8ee480.txt
@@ -102,15 +102,16 @@ sudo mdatp config behavior-monitoring --value enabled
    sleep 5
     ```
 6. Hit **control + X** key to exit. Hit Y to save the file. Y
-7. Run following command to verify script is correctly copied to the file
+7. Hit Enter key to save it.
+8. Run following command to verify script is correctly copied to the file
    ```sh
-   cat nanoBM_test.sh
+   cat BM_test.sh
    ```
-8. Run below to make the command exacutable
+9. Run below to make the command exacutable
    ```sh
    sudo chmod u+x BM_test.sh
    ```
-9. Run the bash script
+10. Run the bash script
    ```sh
    sudo bash BM_test.sh
    ```
