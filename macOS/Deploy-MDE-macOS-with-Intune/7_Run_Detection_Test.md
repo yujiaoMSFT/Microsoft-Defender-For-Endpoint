@@ -29,7 +29,7 @@ curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
 
 ### Step 3: Verify detected malicious file (Defender macOS UI)
 
-1. Launch the ""MDE for macOS** application on your device.
+1. Launch the **MDE for macOS** application on your device.
 2. Click **Protection History** in the app
 3. Under **Quarantined threats**, confirm that the quarantined file is listed.
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/1d7a74bf9fe05a45b09bd40c21226cc70fae31e7/Images/macOS/AVDetection-macOS1.png)
