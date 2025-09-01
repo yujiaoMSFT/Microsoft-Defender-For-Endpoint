@@ -16,13 +16,6 @@ Deploying **Microsoft Defender for Endpoint (MDE) for macOS** can be accomplishe
 - IT administrators managing macOS devices with Intune and planning to deploy MDE.
 - Anyone looking to reduce manual configuration in Intune by using the Graph API.
 
-## Prerequisties
-We will cover this details at next section
-- A macOS device meeting the minimum OS requirements.
-- Network connectivity as required by Intune and MDE.
-- Appropriate Microsoft licenses for Intune and MDE.
-- Access to the Intune portal, Defender portal, and Graph API.
-
 ## High level steps
 The table below outlines the key steps for deploying MDE on macOS using Intune. Click each link for detailed instructions:
 
