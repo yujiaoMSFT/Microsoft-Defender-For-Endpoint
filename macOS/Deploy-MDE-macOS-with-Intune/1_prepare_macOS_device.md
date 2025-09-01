@@ -45,8 +45,8 @@ Supported license options include:
 To assign license to the user, refer to the official guide:  
 https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide
 
-> Microsoft Defender for Endpoint Plan 1 provides antivirus (AV) functionality but does not include endpoint detection and response (EDR) capabilities.  
-> For more details about MDE P1, please refer to the [Overview of Defender for Endpoing P1](https://learn.microsoft.com/en-us/defender-endpoint/defender-endpoint-plan-1).
+> *Microsoft Defender for Endpoint Plan 1 provides antivirus (AV) functionality but does not include endpoint detection and response (EDR) capabilities.*  
+> *For more details about MDE P1, please refer to the [Overview of Defender for Endpoint P1](https://learn.microsoft.com/en-us/defender-endpoint/defender-endpoint-plan-1).*
 
 ## Access permissions to portal
 To complete the setup, ensure access to both **Microsoft Intune** and **Microsoft Defender Portal**.
