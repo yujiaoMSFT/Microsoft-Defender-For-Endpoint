@@ -4,7 +4,7 @@
 The information provided in this guide is for general informational purposes only and reflects the author's personal experience and understanding at the time of writing. It does not represent official guidance from Microsoft. Readers should consult official Microsoft documentation and support channels for the most accurate and up-to-date information. The author and publisher disclaim any liability for errors or omissions and shall not be held responsible for any consequences arising from the use of this content.
 
 ## Overview
-Deploying **Microsoft Defender for Endpoint (MDE) on macOS** can be accomplished in several ways: manual installation, using management tools like Intune, Jamf, or other third-party solutions. This guide focuses on deployment via **Microsoft Intune**, with additional automation using the **Microsoft Graph API** to streamline repetitive tasks. Whether you’re setting up a proof-of-concept (POC) or deploying at scale, these steps will help you simplify and accelerate the process.
+Deploying **Microsoft Defender for Endpoint (MDE) for macOS** can be accomplished in several ways: manual installation, using management tools like Intune, Jamf, or other third-party solutions. This guide focuses on deployment via **Microsoft Intune**, with additional automation using the **Microsoft Graph API** to streamline repetitive tasks. Whether you’re setting up a proof-of-concept (POC) or deploying at scale, these steps will help you simplify and accelerate the process.
 
 ## What you will learn
 - How to deploy and configure MDE for macOS devices using Microsoft Intune.
