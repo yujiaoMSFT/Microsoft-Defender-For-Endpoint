@@ -37,16 +37,16 @@ A successful test will return an OK message..
 ## License requirements
 To follow the deployment method described in this guide, you’ll need licenses for both **Microsoft Intune** and **Microsoft Defender for Endpoint**.
 Supported license options include:
-- Microsoft 365 E5 (*Includes Microsoft Intune and Defender for Endpoint P2*)
-- Microsoft 365 E3 (*Includes Microsoft Intune and Defender for Endpoint P1*)
+- Microsoft 365 E5 (*Includes Microsoft Intune and Defender for Endpoint Plan 2*)
+- Microsoft 365 E3 (*Includes Microsoft Intune and Defender for Endpoint Plan 1*)
 - Microsoft Defender for Endpoint Plan 2 or Plan 1
 - Microsoft intune 
 
 To assign license to the user, refer to the official guide:  
 https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide
 
-> *Microsoft Defender for Endpoint Plan 1 provides antivirus (AV) functionality but does not include endpoint detection and response (EDR) capabilities.*  
-> *For more details about MDE P1, please refer to the [Overview of Defender for Endpoint P1](https://learn.microsoft.com/en-us/defender-endpoint/defender-endpoint-plan-1).*
+> *MDE Plan 1 provides antivirus (AV) functionality but does not include endpoint detection and response (EDR) capabilities.*  
+> *For more details about MDE Plan 1, please refer to the [Overview of Defender for Endpoint Plan 1](https://learn.microsoft.com/en-us/defender-endpoint/defender-endpoint-plan-1).*
 
 ## Access permissions to portal
 To complete the setup, ensure access to both **Microsoft Intune** and **Microsoft Defender Portal**.
