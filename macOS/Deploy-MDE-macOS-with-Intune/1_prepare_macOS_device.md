@@ -1,5 +1,12 @@
 # 1: Prepare macOS device for Defender for Endpoint (MDE)
 
+## What's covered in this section
+This section outlines the prerequisites for deploying MDE for macOS, including:
+- Supported macOS versions
+- Network prerequisites and connectivity validation
+- Licensing prerequisites
+- Portal access and required roles
+
 ## System requirements
 Microsoft Defender for Endpoint (MDE) on macOS is supported on the three most recent major release versions for both Intel and ARM chipsets:
 - macOS 15.0.1 (Sequoia)
