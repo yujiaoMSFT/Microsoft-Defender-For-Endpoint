@@ -65,13 +65,17 @@ If you intend to enroll a company-owned macOS device such as using Automated Dev
 
 ### 2: Create a Device Group
 1. Go to **Groups** > **All groups** in the Intune portal.
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/9c61d069821b668335d7402baa7c19c016661043/Images/macOS/Intune-CreateDeviceGroup1.png)
 2. Click **New Group**
     - Set **Group type** to **Security**
     - Enter **Group name**. Pick any name you want. I used **MDE macOS devices** as group name.
+    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/9c61d069821b668335d7402baa7c19c016661043/Images/macOS/Intune-CreateDeviceGroup2.png)
 3. Click **"No memberrs selected** link under **Members**.
     - Search and select your macOS device form the list.
     - Click **Select** button. 
  4. Now 1 member is selected. Click **Create** to create a group
+ 5. Double click on the device you just created. Click Members to verify the device is added to the group membership.
+    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/9c61d069821b668335d7402baa7c19c016661043/Images/macOS/Intune-CreateDeviceGroup3.png)
 
 ### 3: Verify Device Group Membership
 1. Go to **Groups** > **All groups**. Search the group you just created. Click the group once its found.
