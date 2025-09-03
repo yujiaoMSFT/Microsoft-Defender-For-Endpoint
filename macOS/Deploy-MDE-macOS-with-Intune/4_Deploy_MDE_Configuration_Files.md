@@ -97,6 +97,9 @@ Connect-MgGraph -NoWelcome -Scopes "DeviceManagementConfiguration.ReadWrite.All"
 Now you're ready to run the script and cretate policies via Graph API. Execute the downloaded PowrShell script (AddDefenderConfigsToIntune.ps1) in the step 1.
 You will see login prompt. Enter your Intuhe admin account and password to proceed.
 
+1. Launch PowerShell ISE with administrator priviledge
+2. Select downloaded script file (AddDefenderConfigsToIntune.ps1) in step 1 and run the script
+3. 
 
 Screenshot of script execution
 
