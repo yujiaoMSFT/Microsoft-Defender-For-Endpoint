@@ -9,7 +9,7 @@ However, I will instead **leverage a sample Graph API script** created by [Chris
 
 ## Prerequistie
 
--  PC with PowerShell installed. (I tested with Windows 11 PC. As long as PowerShell is installed, it should work on other OS such as macoS)
+-  PC with PowerShell installed. (I tested with Windows 11 PC. As long as PowerShell is installed, it should work on other OS such as macOS)
 -  Graph API permission.
    > *This guide assumes you are using a Global Administrator account. Steps for using a regular account with delegated permissions will be added in future document updates*
 
