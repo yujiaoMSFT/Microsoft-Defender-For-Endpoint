@@ -71,7 +71,7 @@ Now let's start!
      ```
      ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/7f4c11c67f8eedf70584f7ae21d66189d1bcb75a/Images/macOS/PS-IntuneGraphSDK2.png)  
 
-## Step 3: Grand API access
+## Step 3: Grant API access
 
 The following access permissions are required to execute the PowerShell script for making changes in Intune via API."
 Connect-MgGraph -NoWelcome -Scopes "DeviceManagementConfiguration.ReadWrite.All"
