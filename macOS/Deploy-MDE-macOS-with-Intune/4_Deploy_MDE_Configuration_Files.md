@@ -77,7 +77,7 @@ The following access permissions are required to execute the PowerShell script f
 Connect-MgGraph -NoWelcome -Scopes "DeviceManagementConfiguration.ReadWrite.All"
 
 1. In the browser, open [Azure portall](https://portal.azure.com/)
-2. In the search box on the top, search with keyword **Intune Graph API"**.
+2. In the search box on the top, search with keyword **Intune Graph API**.
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/cb9be79b5259eb053027be5470151c880e78931f/Images/macOS/Intune-GraphConfig1.png)
 3. Click **Intune Gpaph API** from the search result.
 4. Intune Graph API appears. Go to **Manage** > **API permissions**
