@@ -97,19 +97,18 @@ Connect-MgGraph -NoWelcome -Scopes "DeviceManagementConfiguration.ReadWrite.All"
 Now you're ready to run the script and cretate policies via Graph API. Execute the downloaded PowrShell script (AddDefenderConfigsToIntune.ps1) in the step 1.
 You will see login prompt. Enter your Intuhe admin account and password to proceed.
 
-1. Launch PowerShell ISE with administrator priviledge
-2. Select downloaded script file (AddDefenderConfigsToIntune.ps1) in step 1 and run the script
-3. 
+1. Launch PowerShell ISE with administrator privileges.
+2. Open the downloaded script file (AddDefenderConfigsToIntune.ps1) from Step 1.
+3. Run the script to initiate policy creation.
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/123f64d5473e7c61e13303a076dee34f435b575a/Images/macOS/PS-IntuneGraphSDK3.png)
 
-Screenshot of script execution
+## Step 5: Check Policy created in  Microsoft Intune portal
 
-## Step 5: Check in Microsoft Intune portal
-
-Let's go to [Intune portal](https://aka.ms/memac) and check pocicies are successfully created.  
-Go to Devices / Manage devices / Configuration in Microsoft Intune portal.  
-You will see policy name begins with **"MDE (imported) -"**..  
-![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/bad5877a2d0de0e636ba035d275e3d82c92c1e6d/images/MDE-MacOS-Intune-DeviceConfiguration.png)
-
-Screenshot of portal - Policy created
+1. Open [Intune portal](https://aka.ms/memac)   
+2. Go to **Devices** / **Manage devices** / **Configuration** in Microsoft Intune portal.  
+3. Look for policies whose names begin with **"MDE (imported) -"** created successfuly.
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4a59bfcee1ddef91783cac9e1bc2097d6e89315d/Images/macOS/Intune-DeviceConfiguration.png)
 
 ## Step 6: Assign to groups
+
+
