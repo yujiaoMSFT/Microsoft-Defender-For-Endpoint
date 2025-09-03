@@ -36,7 +36,7 @@ Before running script, let me explain what this script does.  Once this script r
 After running this script successfuly, it creates the following policies in Intune portal like below screenshot.
 Each policy name start with a **"MDE (imported) -"**..
 
-![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/ba54b91863d7f2fe8518d98dd23d48f0e9249326/images/Intune-DeviceConfiguration.png)
+![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4a59bfcee1ddef91783cac9e1bc2097d6e89315d/Images/macOS/Intune-DeviceConfiguration.png)
 
 > Policy assignments must be configured individually after each policy is created. Some policies may not be deployed since they are not required for the current macOS versions
 
@@ -48,7 +48,7 @@ Now let's start!
 
      > You’ll find the **download raw file** button circled in red at the top right corner.
 
-     ![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/554246d124de50864a1e00626ec000d96954e718/images/MDE-MacOS-IntuneScript1.png)
+     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/bc8fadc2fa049bc8b7cc81ac004b08b1586eb5fe/Images/macOS/GitHub-IntuneScript.png)
 
      I also **highly recommend reading the guidance provided in the script**, specifically the sections titled 'Configuration Variables' and 'Prerequisites and Authentication'.
    
@@ -62,14 +62,14 @@ Now let's start!
      ```
 2. During installation, you may encounter message dialogs. When they appear, click the 'Yes' or 'Yes to all' button to proceed.
 3. Once installation completes, you will see message like below.
-     ![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/841416b2c221af969d7c076684ecc0db2339dd37/images/MDE-MacOS-PS-SDK-Complete.png)
+     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/7f4c11c67f8eedf70584f7ae21d66189d1bcb75a/Images/macOS/PS-IntuneGraphSDK1.png)
 
 4. Run following command to validate the installation and installed version.
 
      ```sh
      Get-InstalledModule Microsoft.Graph.*
      ```
-     ![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/36cdc5bf4a4f47348843070032e9bdfa41b6e43e/images/MDE-MacOS-PS-SDK-Complete2.png)  
+     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/7f4c11c67f8eedf70584f7ae21d66189d1bcb75a/Images/macOS/PS-IntuneGraphSDK2.png)  
 
 ## Step 3: Grand API access
 
