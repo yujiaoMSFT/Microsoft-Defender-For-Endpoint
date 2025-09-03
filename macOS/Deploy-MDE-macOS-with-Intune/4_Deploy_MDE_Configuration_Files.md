@@ -78,12 +78,17 @@ Connect-MgGraph -NoWelcome -Scopes "DeviceManagementConfiguration.ReadWrite.All"
 
 1. In the browser, open [Azure portall](https://portal.azure.com/)
 2. In the search box on the top, search with keyword **Intune Graph API"**.
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/cb9be79b5259eb053027be5470151c880e78931f/Images/macOS/Intune-GraphConfig1.png)
 3. Click **Intune Gpaph API** from the search result.
 4. Intune Graph API appears. Go to **Manage** > **API permissions**
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/cb9be79b5259eb053027be5470151c880e78931f/Images/macOS/IntuneGraph-Config2.png)
 5. Click **Add a permission**
 6. Select **Microsoft Graph** in Microsoft APIs tab
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/cb9be79b5259eb053027be5470151c880e78931f/Images/macOS/IntuneGraph-Config3.png)
 7. Select **Delegated Permissions**
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/cb9be79b5259eb053027be5470151c880e78931f/Images/macOS/IntuneGraph-Config4.png)
 8. In the search box, type **DeviceManagementConfiguration.ReadWrite.All**. You will see the permission listed
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/cb9be79b5259eb053027be5470151c880e78931f/Images/macOS/IntuneGraph-Config5.png)
 9. Select the **DeviceManagementConfiguration.ReadWrite.All** and click **Add permissions**
    
 ## Step 4: Execute Graph API
