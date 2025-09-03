@@ -123,4 +123,4 @@ You will see login prompt. Enter your Intuhe admin account and password to proce
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/6f67d935dc99f6bc02938a45d7a8d2ccdfa0f3af/Images/macOS/Intune-PolicyAssign4.png)
 7. Click **Review + save**
 
-
+> Repeat this steps for all otehr configuratin profiles created by this script.
