@@ -93,7 +93,7 @@ Connect-MgGraph -NoWelcome -Scopes "DeviceManagementConfiguration.ReadWrite.All"
 10. Veriry API permission is added correctly.
     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/ce013bf6e2c12b3269436887f6c8c29941ad0314/Images/macOS/IntuneGraph-Config6.png)
    
-## Step 4: Execute Graph API
+## Step 4: Execute the script and create policy through Graph API
 Now you're ready to run the script and cretate policies via Graph API. Execute the downloaded PowrShell script (AddDefenderConfigsToIntune.ps1) in the step 1.
 You will see login prompt. Enter your Intuhe admin account and password to proceed.
 
