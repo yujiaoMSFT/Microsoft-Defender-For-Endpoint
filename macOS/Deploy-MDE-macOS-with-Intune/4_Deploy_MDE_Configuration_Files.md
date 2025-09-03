@@ -85,8 +85,6 @@ Connect-MgGraph -NoWelcome -Scopes "DeviceManagementConfiguration.ReadWrite.All"
 7. Select **Delegated Permissions**
 8. In the search box, type **DeviceManagementConfiguration.ReadWrite.All**. You will see the permission listed
 9. Select the **DeviceManagementConfiguration.ReadWrite.All** and click **Add permissions**
-
-Test text
    
 ## Step 4: Execute Graph API
 Now you're ready to run the script and cretate policies via Graph API. Execute the downloaded PowrShell script (AddDefenderConfigsToIntune.ps1) in the step 1.
