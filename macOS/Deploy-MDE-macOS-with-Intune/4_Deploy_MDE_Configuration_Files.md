@@ -109,6 +109,18 @@ You will see login prompt. Enter your Intuhe admin account and password to proce
 3. Look for policies whose names begin with **"MDE (imported) -"** created successfuly.
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4a59bfcee1ddef91783cac9e1bc2097d6e89315d/Images/macOS/Intune-DeviceConfiguration.png)
 
-## Step 6: Assign to groups
+## Step 6: Assign the policy to the group
+
+1. Open [Intune portal](https://aka.ms/memac)
+2. Click on the any policy crated in Step 5. (In this example, I selected 
+3. Click **Edit** on Assignments under proterties.
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/6f67d935dc99f6bc02938a45d7a8d2ccdfa0f3af/Images/macOS/Intune-PolicyAssign1.png)
+4. Select **Add groups** under Included groups in assignment page.
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/6f67d935dc99f6bc02938a45d7a8d2ccdfa0f3af/Images/macOS/Intune-PolicyAssign2.png)
+5. Search and elect your target group. (In my case, MDE macOS devices group)
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/6f67d935dc99f6bc02938a45d7a8d2ccdfa0f3af/Images/macOS/Intune-PolicyAssign3.png)
+6. Confirm your group is selected
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/6f67d935dc99f6bc02938a45d7a8d2ccdfa0f3af/Images/macOS/Intune-PolicyAssign4.png)
+7. Click **Review + save**
 
 
