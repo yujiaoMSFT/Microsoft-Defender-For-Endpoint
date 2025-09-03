@@ -100,7 +100,7 @@ You will see login prompt. Enter your Intuhe admin account and password to proce
 
 Screenshot of script execution
 
-## Step 3: Check in Microsoft Intune portal
+## Step 5: Check in Microsoft Intune portal
 
 Let's go to [Intune portal](https://aka.ms/memac) and check pocicies are successfully created.  
 Go to Devices / Manage devices / Configuration in Microsoft Intune portal.  
@@ -109,4 +109,4 @@ You will see policy name begins with **"MDE (imported) -"**..
 
 Screenshot of portal - Policy created
 
-## Step 4: Assign to groups
+## Step 6: Assign to groups
