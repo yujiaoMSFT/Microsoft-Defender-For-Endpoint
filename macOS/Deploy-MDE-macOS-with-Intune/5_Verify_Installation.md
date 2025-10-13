@@ -1,4 +1,4 @@
-# 6: Verify Installation
+# 5: Verify Installation
 
 ## What's covered in this section
 Once all previous onboarding steps are complete, verify the setup on a macOS device.  

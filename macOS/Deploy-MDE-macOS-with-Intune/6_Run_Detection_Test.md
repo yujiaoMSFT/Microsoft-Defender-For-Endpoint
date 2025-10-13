@@ -1,4 +1,4 @@
-# 7: Run Detection Test
+# 6: Run Detection Test
 
 ## What's covered in this section
 - Perform the following detection tests to validate MDE detection capabilities on macOS:
