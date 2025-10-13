@@ -56,7 +56,7 @@ https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-
 > *For more details about MDE Plan 1, please refer to the [Overview of Defender for Endpoint Plan 1](https://learn.microsoft.com/en-us/defender-endpoint/defender-endpoint-plan-1).*
 
 ## Device Entolled to Intune
-Device must be enrolled to **Microsoft Intune**.
+Your macOS device must be enrolled to **Microsoft Intune**.  
 You can refer to the [Microsoft Intune enrollment documentation](https://learn.microsoft.com/en-us/intune/intune-service/enrollment/macos-enroll).
 
 
