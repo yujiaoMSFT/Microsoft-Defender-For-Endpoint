@@ -1,4 +1,4 @@
-＃ Optional: Enroll the device with Intune
+＃ 8 : Enroll the device with Intune
 
 ## What's covered in this section
 - Enroll your macOS device into Intune (BYOD scenario)
