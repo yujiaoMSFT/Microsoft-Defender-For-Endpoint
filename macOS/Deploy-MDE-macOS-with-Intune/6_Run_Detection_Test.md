@@ -4,12 +4,12 @@
 - Perform the following detection tests to validate MDE detection capabilities on macOS:
     - Antivirus (Real-Time Protection)
     - Antivirus (Behavior Monitoring)
-    - EDR (Endpint Detection & Response)
+    - EDR (Endpoint Detection & Response)
 
 ## Detection test 1: Antivirus (Real Time Pritection - aka RTP)
 
 ### Step 1: Verify Real Time Protection (RTP) status
-Open **Terminal** and run the following command to check the status of Real-Time Protectin (RTP).
+Open **Terminal** and run the following command to check the status of Real-Time Protection (RTP).
 ```sh
 mdatp health --field real_time_protection_enabled
 ```
@@ -33,7 +33,7 @@ curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
 2. Click **Protection History** in the app
 3. Under **Quarantined threats**, confirm that the quarantined file is listed.
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/1d7a74bf9fe05a45b09bd40c21226cc70fae31e7/Images/macOS/AVDetection-macOS1.png)
-4. Click **See details**. (You will be promptedd to enter your **administrator credentials**)
+4. Click **See details**. (You will be prompted to enter your **administrator credentials**)
 6. Review the additional information about the quarantined file.
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/1d7a74bf9fe05a45b09bd40c21226cc70fae31e7/Images/macOS/AVDetection-macOS2.png)
 
@@ -50,9 +50,9 @@ curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
 
 1. Open the [Microsoft Defender portal](https://security.microsoft.com)
 2. Navigate to **Incidents & alerts** > **Incidents**
-3. A new indident should be listed.
+3. A new incident should be listed.
   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/a2af008515d23c94ce6d090ec117654681c472fa/Images/macOS/MDEmacOS-Incident1.png)
-4. Click the indident name to view full details.
+4. Click the incident name to view full details.
   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/a2af008515d23c94ce6d090ec117654681c472fa/Images/macOS/MDEmacOS-Incident2.png)
 5. Once the investigation has completed, click **Manage Incident**.
    - Set the **status** to **Resolved**.
@@ -68,20 +68,20 @@ curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
 > For more details, Please refer to official [blog announcement](https://techcommunity.microsoft.com/blog/microsoftdefenderatpblog/behavior-monitoring-is-now-generally-available-for-microsoft-defender-for-endpoi/4415697) and [public document](https://learn.microsoft.com/en-us/defender-endpoint/behavior-monitor-macos)
 
 ### Step 1: Verify Behavior Monitoring status
-Open **Terminal** and run the following command to check the status of Behavior Monitoirng.
+Open **Terminal** and run the following command to check the status of Behavior Monitoring.
 ```sh
 mdatp health --details features
 ```
-You will see status of Behavior Monitoirng
+You will see status of Behavior Monitoring
 ```sh
 behavior_monitoring     :"disabled"
 ```
 
-By default, Behavior Monitoirng is **disabled**.  To enable it run the following command
+By default, Behavior Monitoring is **disabled**.  To enable it run the following command
 ```sh
 sudo mdatp config behavior-monitoring --value enabled
 ```
-### Step 2: Create a Test file for Behavior Monitoirng Detection
+### Step 2: Create a Test file for Behavior Monitoring Detection
 
 1. Open **Terminal** on your macOS device.
 2. Run the following command to create a test script file:
@@ -120,7 +120,7 @@ sudo mdatp config behavior-monitoring --value enabled
 2. Click **Protection History** in the app
 3. Under **Quarantined threats**, confirm that the quarantined file is listed. (Category is *Suspicious Behavior*)
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/c2cb350ce611d0c6edcead1e575874c86d515b1b/Images/macOS/AVDetection-macOS3.png)
-4. Click **See details**. (You will be promptedd to enter your **administrator credentials**)
+4. Click **See details**. (You will be prompted to enter your **administrator credentials**)
 6. Review the additional information about the quarantined file. (Type is *Process*)
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/c2cb350ce611d0c6edcead1e575874c86d515b1b/Images/macOS/AVDetection-macOS4.png)
 
@@ -151,7 +151,7 @@ sudo mdatp config behavior-monitoring --value enabled
 1. Open your browser and go to https://aka.ms/mdatpmacosdiy.
 2. The **MDATP MacOS DIY** file will be downloaded.
 3. Right click click the downloaded file, and select **open**.
-   >  If your macOS device uses an Apple M-series chipset, you may be prompted to install Rosetta. Click Install (you will need to enter your administrator credentials).
+   >  If your macOS device uses an Apple M-series chip, you may be prompted to install Rosetta. Click Install (you will need to enter your administrator credentials).
 4. After Rosetta is installed, right-click the file again and select Open to proceed.
 5. Open [Defender portal](https://security.microsoft.com) and verify that an incident titled **macOS EDR Test Alert** has been created. 
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/6aa2b122c8d783c577e193bb536e29d3ec4d3c2f/Images/macOS/MDEmacOS-Incident4.png)

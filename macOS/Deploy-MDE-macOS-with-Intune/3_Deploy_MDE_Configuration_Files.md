@@ -46,7 +46,7 @@ Now let's start!
 
 1. Download the PowerShell script **(AddDefenderConfigsToIntune.ps1)** from [GitHub](https://github.com/microsoft/shell-intune-samples/tree/master/macOS/Config/Defender%20Configuration)  
 
-     > You’ll find the **download raw file** button circled in red at the top right corner.
+     > You will find the **download raw file** button circled in red at the top right corner.
 
      ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/bc8fadc2fa049bc8b7cc81ac004b08b1586eb5fe/Images/macOS/GitHub-IntuneScript.png)
 
