@@ -55,6 +55,11 @@ https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-
 > *MDE Plan 1 provides antivirus (AV) functionality but does not include capabilities such as endpoint detection and response (EDR), Threat & Vulnarability management and Advanced Hunting.*  
 > *For more details about MDE Plan 1, please refer to the [Overview of Defender for Endpoint Plan 1](https://learn.microsoft.com/en-us/defender-endpoint/defender-endpoint-plan-1).*
 
+## Device Entolled to Intune
+Device must be enrolled to **Microsoft Intune**.
+You can refer to the [Microsoft Intune enrollment documentation](https://learn.microsoft.com/en-us/intune/intune-service/enrollment/macos-enroll).
+
+
 ## Access permissions to portal
 To complete the setup, ensure access to both **Microsoft Intune** and **Microsoft Defender Portal**.
 In this guide, an Entra ID account was created and assigned the following roles:
