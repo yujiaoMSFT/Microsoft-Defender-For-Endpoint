@@ -1,7 +1,7 @@
 # 3: Deploy MDE onboarding Package
 
 ## What's covered in this section
-To complete the onboarding process, the MDE onboarding package must be assigned to each macOS device. If this step is missed, the device will likely display a "license is not assigned" error message, and MDE will not function properly on macOS.  
+The MDE onboarding package must be assigned to each macOS device. If this step is missed, the device will likely display a "license is not assigned" error message, and MDE will not function properly on macOS.  
 Following will be covered in this section.    
 - Download the Microsoft Defender for Endpoint onboarding package from Defender portal
 - Create and deploy the Microsoft Defender for Endpoint onboarding package for MacOS in Intune portal.
