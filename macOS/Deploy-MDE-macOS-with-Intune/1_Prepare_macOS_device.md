@@ -69,6 +69,8 @@ Assigned the account to the Intune Administrator role under Entra ID built-in ro
 This account is designated for accessing the Intune portal and utilizing the Microsoft Graph API.  
 See : [Microsoft Entra built-in roles - Intune Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#intune-administrator)
 
+***
+
 **Microsoft Defender portal**  
 Use [Microsoft Defender XDR Unified role-based access control (RBAC)](https://learn.microsoft.com/en-us/defender-xdr/manage-rbac) and assign following permissions.  
 -  Security operators (All read and manage permissions)
