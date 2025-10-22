@@ -7,9 +7,6 @@ Following will be covered in this section.
 - Create and deploy the Microsoft Defender for Endpoint onboarding package for MacOS in Intune portal.
 
 ## Step 1: Download the Microsoft Defender for Endpoint onboarding package
-Complete following steps in the [public documentation](https://learn.microsoft.com/en-us/defender-endpoint/mac-install-with-intune#step-13-download-the-microsoft-defender-for-endpoint-onboarding-package).
-
-
 1. Open [Microsoft Defender portal](https://security.microsoft.com)
 2. Go to **Settings** > **Endpoints** > **Device management** > **Onboarding**
 3. To select operating system, choose **macOS** from pull down menu.
