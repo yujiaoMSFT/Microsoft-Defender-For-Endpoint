@@ -4,6 +4,21 @@
 - Create an MDE application package for macOS in the Intune portal and assign it to the target group.
 - Verify MDE application package deployment status in Intune portal
 
+## Step 1: Download Sample shell script for Defender agent installation
+1. Download file
+2. Modify the file (REM application check)
+
+## Step 2: Install Rosetta on macOS
+
+This is optional. If device is ARM chip, but it's reauired for script
+
+
+## Step 3: Create MDE App package and assign it to the group
+
+1. Go to Intune portal and deploy the script
+
+## Step 4: Create MDE App package and assign it to the group
+
 ## Step 1: Create MDE App package and assign it to the group
 
 1. Open [Intune portal](https://aka.ms/memac)
