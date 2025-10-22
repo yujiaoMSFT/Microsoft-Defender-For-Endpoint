@@ -58,7 +58,7 @@ Now let's start!
 
 1. Launch PowerShell as administrator, and run command below to start installing [Microsoft Graph PowerShell SDK](https://learn.microsoft.com/ja-jp/powershell/microsoftgraph/installation?view=graph-powershell-1.0):  
      ```sh
-      Install-Module Microsoft.Graph -Scope CurrentUser
+     Install-Module Microsoft.Graph -Scope CurrentUser
      ```
 2. During installation, you may encounter message dialogs. When they appear, click the 'Yes' or 'Yes to all' button to proceed.
 3. Once installation completes, you will see message like below.
@@ -67,7 +67,7 @@ Now let's start!
 4. Run following command to validate the installation and installed version.
 
      ```sh
-     Get-InstalledModule Microsoft.Graph.*
+     Get-InstalledModule Microsoft.Graph
      ```
      ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/7f4c11c67f8eedf70584f7ae21d66189d1bcb75a/Images/macOS/PS-IntuneGraphSDK2.png)  
 
