@@ -20,7 +20,7 @@ If you don't see these menus, it's possible you don't have sufficient permission
 ![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/c2241e2fa4df4f6a4ca655f2cb7270106de7378b/images/macOS/MDE-Download-OnboardingPackage1.png)
 
 7. Extract the zip file. If you are using Windows, right click the file in the file explorere and select **Extract all**.
-9. 
+9. A File "MicrosoftDefenderATPOnboardingMacOs.sh" will be extracted.
 10. ou will see **Microsoft Defender for Endpoing (macOS)**. Click **Select** to continue.
 11. In **App information** page, use default value and click **Next** (Of course you can choose to change if needed)
 12. In **Scope tag** page, click **Next**. (You can set scope tag if you need)
