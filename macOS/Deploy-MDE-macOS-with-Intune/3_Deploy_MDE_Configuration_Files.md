@@ -1,4 +1,4 @@
-# 3.	Deploy MDE configuration settings (using Graph API)
+# 2.	Deploy MDE configuration settings (using Graph API)
 
 ## What's covered in this section
 
