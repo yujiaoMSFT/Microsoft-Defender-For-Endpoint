@@ -34,7 +34,7 @@ Before running script, let me explain what this script does.  Once this script r
 
 **How does it look like in Intune portal?**  
 After running this script successfuly, it creates the following policies in Intune portal like below screenshot.
-Each policy name start with a **"MDE (imported) -"**..
+Each policy name start with a **"MDE (imported) -"**
 
 ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4a59bfcee1ddef91783cac9e1bc2097d6e89315d/Images/macOS/Intune-DeviceConfiguration.png)
 
