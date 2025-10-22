@@ -60,11 +60,11 @@ Your macOS device must be enrolled to **Microsoft Intune**.
 You can refer to the [Microsoft Intune enrollment documentation](https://learn.microsoft.com/en-us/intune/intune-service/enrollment/macos-enroll).
 
 
-## Access permissions to portal
+## Access permissions to portal & API
 To complete the setup, ensure access to both **Microsoft Intune** and **Microsoft Defender Portal**.
 In this guide, an Entra ID account was created and assigned the following roles:
 
-**Microsoft Intune portal**  
+**Microsoft Intune portal & Grahp API**  
 Assigned the account to the Intune Administrator role under Entra ID built-in roles.  
 This account is designated for accessing the Intune portal and utilizing the Microsoft Graph API.  
 See : [Microsoft Entra built-in roles - Intune Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#intune-administrator)
