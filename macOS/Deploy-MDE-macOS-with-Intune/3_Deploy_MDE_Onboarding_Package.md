@@ -1,4 +1,4 @@
-# 4: Deploy MDE onboarding Package
+# 3: Deploy MDE onboarding Package
 
 ## What's covered in this section
 To complete the onboarding process, the MDE onboarding package must be assigned to each macOS device. If this step is missed, the device will likely display a "license is not assigned" error message, and MDE will not function properly on macOS.  
