@@ -11,7 +11,7 @@ Following will be covered in this section.
 2. Go to **Settings** > **Endpoints** > **Device management** > **Onboarding**
 3. To select operating system, choose **macOS** from pull down menu.
 4. In connectivity type, select **Streamlined** from pull down menu.  
-   (Streamlined connectibity is recommended since it requlres less required URLs compared to Standard connectivitry. However, you can chooose Standard if you prefereed)
+   ([Streamlined connectibity](https://learn.microsoft.com/en-us/defender-endpoint/configure-device-connectivity?view=o365-worldwide&branch=connect-devices) is recommended since it requlres less required URLs compared to Standard connectivitry. However, you can chooose Standard if you prefereed)
 5. In deployment method, select **Mobile Device Management / Microsoft Intune**.
 6. Click **Download onboarding package** button and download onboarding package in zip format. (GatewayWindowsDefenderATPOnboardingPackage.zip will be downloaded if you choose Streamlined connectivity)
 
