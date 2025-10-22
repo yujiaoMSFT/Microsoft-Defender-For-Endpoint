@@ -124,3 +124,7 @@ You will see login prompt. Enter your Intuhe admin account and password to proce
 7. Click **Review + save** to apply the changes
 
 > **Repeat these steps for all other configuration profiles created by the script.**
+
+***
+Go to next section
+Once completed, go to next section [3: Deploy MDE onboarding Package](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/macOS/Deploy-MDE-macOS-with-Intune/3_Deploy_MDE_Onboarding_Package.md)
