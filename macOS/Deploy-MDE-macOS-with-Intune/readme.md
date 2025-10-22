@@ -8,7 +8,7 @@ Deploying **Microsoft Defender for Endpoint (MDE) for macOS** can be accomplishe
 
 ## What you will learn
 - How to deploy and configure MDE for macOS devices using Microsoft Intune.
-- Step-by-step instructions from device registration to app deployment and configuration.
+- Step-by-step instructions for app deployment and configuration.
 - How to leverage the Intune Graph API to automate and simplify repetitive administrative tasks.
 - How to validate AV (Antivirus) and EDR (Endpoint Detection & Response) capabilities by using simulation files.
 
