@@ -1,4 +1,4 @@
-# 2: Deploy MDE application package
+# 4: Deploy MDE application package
 
 ## What's covered in this section
 - Create an MDE application package for macOS in the Intune portal and assign it to the target group.
