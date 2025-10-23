@@ -69,7 +69,7 @@ To complete the setup, ensure access to both **Microsoft Intune** and **Microsof
 In this guide, an Entra ID account was created and assigned the following roles:
 
 **Microsoft Intune portal & Grahp API**  
-Assigned the account to the Intune Administrator role under Entra ID built-in roles.  
+Assigned the account to the **Intune Administrator role** under Entra ID built-in roles.  
 This account is designated for accessing the Intune portal and utilizing the Microsoft Graph API.  
 See : [Microsoft Entra built-in roles - Intune Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#intune-administrator)
 
