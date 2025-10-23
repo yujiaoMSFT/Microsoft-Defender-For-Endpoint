@@ -18,7 +18,7 @@ This section outlines the deployment of the Microsoft Defender application on ma
 This is optional. If device is ARM chip, but it's reauired for script
 
 
-## Step 3: Create MDE App package and assign it to the group
+## Step 3: Upload and deploy script file
 
 1. Open [Intune portal](https://aka.ms/memac)
 2. Go to **Devices** > **Monitor** > **By Platform** > **macOS**
