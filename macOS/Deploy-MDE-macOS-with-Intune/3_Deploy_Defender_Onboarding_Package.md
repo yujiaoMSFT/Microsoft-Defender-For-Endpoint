@@ -36,3 +36,7 @@ If you don't see these menus, it's possible you don't have sufficient permission
 11. Click **Next** to proceed in Scope tag page.
 12. In assignments tab, click add groups. Select target group and cick next
 13. In review + create tab, click **Create** to finish.
+
+***
+## Go to next section  
+Once completed, go to next section [3: Deploy Defender application](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/macOS/Deploy-MDE-macOS-with-Intune/4_Deploy_MDE_App_Package.md)
