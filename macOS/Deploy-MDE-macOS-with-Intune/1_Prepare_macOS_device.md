@@ -83,4 +83,4 @@ See: [Permissions in Microsoft Defender XDR Unified role-based access control (R
 
 ***
 ## Go to next section
-Once completed, go to next section [2. Deploy MDE configuration settings (using Graph API)](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/macOS/Deploy-MDE-macOS-with-Intune/2_Deploy_MDE_Configuration_Files.md)
+Once completed, go to next section [2. Deploy MDE configuration settings (using Graph API)](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/macOS/Deploy-MDE-macOS-with-Intune/2_Deploy_MDE_Configuration_policies.md)
