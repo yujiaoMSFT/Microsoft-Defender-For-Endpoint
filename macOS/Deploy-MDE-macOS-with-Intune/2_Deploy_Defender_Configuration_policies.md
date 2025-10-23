@@ -122,7 +122,7 @@ You will see login prompt. Enter your Intuhe admin account and password to proce
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/6f67d935dc99f6bc02938a45d7a8d2ccdfa0f3af/Images/macOS/Intune-PolicyAssign4.png)
 7. Click **Review + save** to apply the changes
 
-> **Repeat these steps for all other configuration profiles created by the script, except for the Kernel Extension (Kext) policy. Assigning a Kext policy is no longer necessary for supported macOS devices**
+> **Repeat these steps for all other configuration profiles created by the script, except for the Kernel Extension (Kext) policy. Assigning a Kext policy is no longer necessary for currently supported macOS devices**
 
 ***
 ## Go to next section  
