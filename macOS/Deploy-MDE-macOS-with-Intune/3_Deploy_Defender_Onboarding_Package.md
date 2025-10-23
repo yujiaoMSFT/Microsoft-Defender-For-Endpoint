@@ -24,7 +24,7 @@ If you don't see these menus, it's possible you don't have sufficient permission
 ## Step 2: Deploy the Microsoft Defender for Endpoint onboarding package for MacOS
 
 1. Open [Microsoft Intune portal](https://aka.ms/memac)
-2. Go to **Devices** > **Monitor** > **Managed Devices** > **Configuration**
+2. Go to **Devices** > **Managed Devices** > **Configuration**
 3. Click **Create** > **New Policy**.
 4. Select **macOS** in platform, and select **Templates** in profile type.
 5. Select **Custom** from Template name, and click **Create**.
