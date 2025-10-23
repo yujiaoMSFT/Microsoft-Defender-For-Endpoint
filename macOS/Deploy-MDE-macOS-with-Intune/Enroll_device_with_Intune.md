@@ -51,9 +51,9 @@ If you intend to enroll a company-owned macOS device such as using Automated Dev
 7. The **Device Management** screen will open. Double click on **Management Profile**, then click **Install**.
     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/fbd0c573e8ff02a50db1df9ade23d926c970e07f/Images/macOS/IntuneRegister7.png)
 8. enter **admin credentials** of your macOS device and then click **Enroll**.
-9. Click **Done** to complete the setup
+9. Click **Done** to complete the setup.
     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/fbd0c573e8ff02a50db1df9ade23d926c970e07f/Images/macOS/IntuneRegister8.png)
-10. You will now see your device registered in the company portal app (ADD IMAGE)
+10. You will now see your device registered in the company portal app.
     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/fbd0c573e8ff02a50db1df9ade23d926c970e07f/Images/macOS/IntuneRegister9.png)
     
 ## Step 3: Confirm device object and create Deice group in Intune  portal
