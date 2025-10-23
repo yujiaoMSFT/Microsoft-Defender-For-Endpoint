@@ -1,4 +1,4 @@
-# 2.	Deploy MDE configuration policies (using Graph API)
+# 2.	Deploy configuration policies for Defender (using Graph API)
 
 ## What's covered in this section
 
