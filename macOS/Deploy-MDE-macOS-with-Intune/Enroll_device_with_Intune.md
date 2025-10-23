@@ -1,9 +1,11 @@
 # Optional: Enroll the device with Intune
 
+> This is optional steps: You may skip this section if your macOS device is already enrolled in Microsoft Intune or if you're familiar with creating device groups in Intune.
+
 ## What's covered in this section
 - Enroll your macOS device into Intune (BYOD scenario)
 - Create a devcie group in Intune. (This group will be used later to deploy the Microsoft Defender for Endpoint (MDE) app and associated policies)  
-> You may skip this section if your macOS device is already enrolled in Microsoft Intune or if you're familiar with creating device groups in Intune.
+
 
 ## Prerequiristie
 Ensure your Intune tenant is already configured for macOS device enrollment. If you haven’t completed the configuration, please follow the steps in the [Intune documentation](https://learn.microsoft.com/en-us/intune/intune-service/enrollment/macos-enroll) before proceeding.
