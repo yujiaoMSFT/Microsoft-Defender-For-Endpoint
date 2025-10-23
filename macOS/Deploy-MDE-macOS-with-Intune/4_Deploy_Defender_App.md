@@ -1,4 +1,4 @@
-# 4: Deploy Defender for Endpoint application
+# 4: Deploy Defender application
 
 ## What's covered in this section
 This section outlines the deployment of the Microsoft Defender application on macOS devices using Intune. The process includes:
