@@ -49,6 +49,7 @@ A successful test will return an OK message..
 To follow the deployment method described in this guide, you will need licenses for both **Microsoft Intune** and **Microsoft Defender for Endpoint**.
 Supported license options include:
 - Microsoft 365 E5 (*Includes Microsoft Intune and Defender for Endpoint Plan 2*)
+- Microsoft Defender Suite (*Includes Microsoft Intune and Defender for Endpoint Plan 2*)
 - Microsoft 365 E3 (*Includes Microsoft Intune and Defender for Endpoint Plan 1*)
 - Microsoft Defender for Endpoint Plan 2 or Plan 1
 - Microsoft intune 
