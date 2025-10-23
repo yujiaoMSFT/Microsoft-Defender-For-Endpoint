@@ -13,11 +13,6 @@ This section outlines the deployment of the Microsoft Defender application on ma
 1. Download [Defender installation script file](https://github.com/microsoft/shell-intune-samples/blob/master/macOS/Apps/Defender/installDefender.sh) from Github.
 2. Modify the file (REM application check)
 
-## Step 2: Install Rosetta on macOS
-
-This is optional. If device is ARM chip, but it's reauired for script
-
-
 ## Step 3: Upload and deploy script file
 
 1. Open [Intune portal](https://aka.ms/memac)
