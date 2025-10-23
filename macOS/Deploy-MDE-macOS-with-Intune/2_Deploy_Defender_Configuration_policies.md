@@ -24,7 +24,7 @@ Before running script, let me explain what this script does.  Once this script r
 | ------ | ------ | ------ | ------ | ------ |
 | 1 | Approve system extensions | sysext.mobileconfig | Custom | System extension permissions |
 | 2 | System extensions restricted | sysext_restricted.mobileconfig | Custom | Restricted system extension permissions |
-| 3 | Network Filter | netfilter.mobileconfig | Custom | MDE on macOS inspects socket traffic and reports this information to the Defender XDR portal | 
+| 3 | Network Filter | netfilter.mobileconfig | Custom | Defender on macOS inspects socket traffic and reports this information to the Defender XDR portal | 
 | 4 | Full Disk Access | fulldisk.mobileconfig | Custom | This configuration profile grants Full Disk Access to Microsoft Defender for Endpoint This configuration profile grants Full Disk Access to Microsoft Defender for Endpoint |
 | 5  | Background services | background_services.mobileconfig | Custom | This configuration profile grants Background Service permission to Microsoft Defender for Endpoint |
 | 6 | Notifications | notif.mobileconfig	| Custom | This profile is used to allow Microsoft Defender for Endpoint on macOS and Microsoft AutoUpdate to display notifications in UI |
