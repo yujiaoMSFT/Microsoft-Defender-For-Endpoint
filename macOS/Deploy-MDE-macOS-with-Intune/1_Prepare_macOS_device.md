@@ -21,7 +21,7 @@ Microsoft Defender for Endpoint on macOS is supported on the three most recent m
 > Defender does not support beta version of MacOS. The new macOS version will be supported on Day 1 of its General Availability (GA) release.
 
 ## Network requirements
-To ensure proper connectivity for MDE on macOS, review the official documentation:  
+To ensure proper connectivity for Defender on macOS, review the official documentation:  
  https://learn.microsoft.com/en-us/defender-endpoint/microsoft-defender-endpoint-mac-prerequisites#network-connectivity  
  https://learn.microsoft.com/en-us/defender-endpoint/configure-environment  
  
@@ -57,7 +57,7 @@ To assign license to the user, refer to the official guide:
 https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide
 
 > Defender for Endpoint Plan 1 provides antivirus (AV) functionality but does not include capabilities such as endpoint detection and response (EDR), Threat & Vulnarability management and Advanced Hunting.  
-> For more details about MDE Plan 1, please refer to the [Overview of Defender for Endpoint Plan 1](https://learn.microsoft.com/en-us/defender-endpoint/defender-endpoint-plan-1).
+> For more details about Defender for Endpoint Plan 1, please refer to the [Overview of Defender for Endpoint Plan 1](https://learn.microsoft.com/en-us/defender-endpoint/defender-endpoint-plan-1).
 
 ## Device Entolled to Intune
 Your macOS device must be enrolled to **Microsoft Intune**.  
