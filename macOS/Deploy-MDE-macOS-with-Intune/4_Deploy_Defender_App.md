@@ -20,7 +20,17 @@ This is optional. If device is ARM chip, but it's reauired for script
 
 ## Step 3: Create MDE App package and assign it to the group
 
-1. Go to Intune portal and deploy the script
+1. Open [Intune portal](https://aka.ms/memac)
+2. Go to **Devices** > **Monitor** > **By Platform** > **macOS**
+3. Go to **Monitor** > **Manage Device** > **Scripts**
+4. Click **Add**
+5. In Basics page, enter name for Script (For example, "Install Defender Application") and click **Next**
+6. Upload the script you downloaded in Step 1. Also use following settings and then click **Next**
+   - Run acript as signed in user = No  
+   - Hide Script notifications on devices = Not configured  
+   - Script frequency = Not configured
+   - Max Number of times to retry if script fails = 3  
+7. xxx
 
 ## Step 4: Create MDE App package and assign it to the group
 
