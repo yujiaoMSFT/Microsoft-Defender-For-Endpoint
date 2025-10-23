@@ -4,8 +4,8 @@
 This section outlines the deployment of the Microsoft Defender application on macOS devices using Intune. The process includes:
 - Automating the download and installation of the Defender pakage (.pkg) file via an [Intune shell script](https://learn.microsoft.com/en-us/intune/intune-service/apps/macos-shell-scripts).
 - Verifying the deployment status of the Defender application in the Intune portal.
-- Check logging of installer script on macOS device
-
+- Checking the installation script logs directly on the macOS device for troubleshooting or validation.
+  
 There are multiple methods available for deploying applications to macOS devices. In this case, I chose to use a shell script for installation. Alternatively, you can follow the application deployment steps described in [Step 12: Publish the Microsoft Defender application](https://learn.microsoft.com/en-us/defender-endpoint/mac-install-with-intune#step-12-publish-the-microsoft-defender-application) in the official documentation.
 To explore other deployment options and understand the pros and cons of each method, refer to this [blog post](https://techcommunity.microsoft.com/blog/intunecustomersuccess/deploying-microsoft-365-apps-for-mac-with-microsoft-intune---a-deep-dive/2243040).
 
