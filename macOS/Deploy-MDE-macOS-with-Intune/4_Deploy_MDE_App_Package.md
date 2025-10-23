@@ -1,8 +1,6 @@
 # 4: Deploy Defender for Endpoint application
 
 ## What's covered in this section
-This section covers Defender Application deployment includes
-
 This section outlines the deployment of the Microsoft Defender application on macOS devices using Intune. The process includes:
 - Automating the download and installation of the Defender pakage (.pkg) file via an [Intune shell script](https://learn.microsoft.com/en-us/intune/intune-service/apps/macos-shell-scripts).
 - Verifying the deployment status of the Defender application in the Intune portal.
