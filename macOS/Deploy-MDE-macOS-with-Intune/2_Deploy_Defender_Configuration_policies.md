@@ -126,4 +126,4 @@ You will see login prompt. Enter your Intuhe admin account and password to proce
 
 ***
 ## Go to next section  
-Once completed, go to next section [3: Deploy MDE onboarding Package](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/macOS/Deploy-MDE-macOS-with-Intune/3_Deploy_MDE_Onboarding_Package.md)
+Once completed, go to next section [3: Deploy Defender onboarding Package](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/macOS/Deploy-MDE-macOS-with-Intune/3_Deploy_Defender_Onboarding_Package.md)
