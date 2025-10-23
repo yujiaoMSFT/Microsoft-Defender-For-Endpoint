@@ -16,7 +16,7 @@ However, I will instead **leverage a sample Graph API script** created by [Chris
 
 Before running script, let me explain what this script does.  Once this script runs, it connects to Graph API and complete following. 
 - Download configuraiton files from [GitHub repository](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
-- Create policy setting in Microsoft Intune portal (See below tables)
+- Create policy settings in Microsoft Intune portal (See below tables)
 
 
 | No | Configuration | Configuration File | Policy Type in Intune | description |
