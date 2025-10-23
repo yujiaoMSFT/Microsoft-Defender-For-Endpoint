@@ -1,6 +1,6 @@
 # Optional: Enroll the device with Intune
 
-> This is optional steps: You may skip this section if your macOS device is already enrolled in Microsoft Intune or if you're familiar with creating device groups in Intune.
+> This is optional step. You may skip this section if your macOS device is already enrolled in Microsoft Intune or if you're familiar with creating device groups in Intune.
 
 ## What's covered in this section
 - Enroll your macOS device into Intune (BYOD scenario)
