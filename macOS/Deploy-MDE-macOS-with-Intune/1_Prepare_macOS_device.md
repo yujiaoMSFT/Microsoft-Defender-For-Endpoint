@@ -57,8 +57,8 @@ Supported license options include:
 To assign license to the user, refer to the official guide:  
 https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide
 
-> *Defender for Endpoint Plan 1 provides antivirus (AV) functionality but does not include capabilities such as endpoint detection and response (EDR), Threat & Vulnarability management and Advanced Hunting.*  
-> *For more details about MDE Plan 1, please refer to the [Overview of Defender for Endpoint Plan 1](https://learn.microsoft.com/en-us/defender-endpoint/defender-endpoint-plan-1).*
+> Defender for Endpoint Plan 1 provides antivirus (AV) functionality but does not include capabilities such as endpoint detection and response (EDR), Threat & Vulnarability management and Advanced Hunting.  
+> For more details about MDE Plan 1, please refer to the [Overview of Defender for Endpoint Plan 1](https://learn.microsoft.com/en-us/defender-endpoint/defender-endpoint-plan-1).
 
 ## Device Entolled to Intune
 Your macOS device must be enrolled to **Microsoft Intune**.  
