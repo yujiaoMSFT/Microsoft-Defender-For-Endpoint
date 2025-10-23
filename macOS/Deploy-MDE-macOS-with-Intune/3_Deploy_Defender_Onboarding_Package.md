@@ -39,4 +39,4 @@ If you don't see these menus, it's possible you don't have sufficient permission
 
 ***
 ## Go to next section  
-Once completed, go to next section [3: Deploy Defender application](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/macOS/Deploy-MDE-macOS-with-Intune/4_Deploy_MDE_App_Package.md)
+Once completed, go to next section [4: Deploy Defender application](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/macOS/Deploy-MDE-macOS-with-Intune/4_Deploy_Defender_App.md)
