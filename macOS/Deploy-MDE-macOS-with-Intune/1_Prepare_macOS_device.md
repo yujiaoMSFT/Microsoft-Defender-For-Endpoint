@@ -13,10 +13,10 @@ Microsoft Defender for Endpoint (MDE) on macOS is supported on the three most re
 - macOS 15.0.1 (Sequoia)
 - macOS 14 (Sonoma)
   
-> *This document was tested using following devcies
-> a Mac mini running macOS Sequoia 15.5 with an Apple M4 chip.
-> a MacBook Air running macOS Tahoe 26.0.1 with an Apple M4 chip.
->  a Mac mini running macOS 15.5 with an Apple M4 chip.  The user interface may vary depending on your macOS version.*
+> *This document was tested using following devcies  
+> a Mac mini running macOS Sequoia 15.5 with an Apple M4 chip.  
+> a MacBook Air running macOS Tahoe 26.0.1 with an Apple M4 chip.  
+> The user interface may vary depending on your macOS version.*
 > *Please note that the macOS user interface may differ if you are using a different version of macOS.*  
 > *MDE does not support beta version of MacOS. The new macOS version will be supported on Day 1 of its General Availability (GA) release.*
 
