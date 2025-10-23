@@ -1,11 +1,18 @@
-# 4: Deploy MDE application package
+# 4: Deploy Defender for Endpoint application
 
 ## What's covered in this section
-- Create an MDE application package for macOS in the Intune portal and assign it to the target group.
-- Verify MDE application package deployment status in Intune portal
+This section covers Defender Application deployment includes
 
-## Step 1: Download Sample shell script for Defender agent installation
-1. Download file
+This section outlines the deployment of the Microsoft Defender application on macOS devices using Intune. The process includes:
+- Automating the download and installation of the Defender pakage (.pkg) file via an [Intune shell script](https://learn.microsoft.com/en-us/intune/intune-service/apps/macos-shell-scripts).
+- Verifying the deployment status of the Defender application in the Intune portal.
+- Check logging of installer script on macOS device
+
+There are multiple methods available for deploying applications to macOS devices. In this case, I chose to use a shell script for installation. Alternatively, you can follow the application deployment steps described in [Step 12: Publish the Microsoft Defender application](https://learn.microsoft.com/en-us/defender-endpoint/mac-install-with-intune#step-12-publish-the-microsoft-defender-application) in the official documentation.
+To explore other deployment options and understand the pros and cons of each method, refer to this [blog post](https://techcommunity.microsoft.com/blog/intunecustomersuccess/deploying-microsoft-365-apps-for-mac-with-microsoft-intune---a-deep-dive/2243040).
+
+## Step 1: Download Sample shell script for Defender application installation
+1. Download [Defender installation script file](https://github.com/microsoft/shell-intune-samples/blob/master/macOS/Apps/Defender/installDefender.sh) from Github.
 2. Modify the file (REM application check)
 
 ## Step 2: Install Rosetta on macOS
