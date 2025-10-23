@@ -18,8 +18,8 @@ Microsoft Defender for Endpoint (MDE) on macOS is supported on the three most re
 > - a MacBook Air running **macOS Tahoe 26.0.1** with an Apple M4 chip
 > 
 > The user interface may vary depending on your macOS version.  
-> Please note that the macOS user interface may differ if you are using a different version of macOS.*  
-> MDE does not support beta version of MacOS. The new macOS version will be supported on Day 1 of its General Availability (GA) release.*
+> Please note that the macOS user interface may differ if you are using a different version of macOS.  
+> MDE does not support beta version of MacOS. The new macOS version will be supported on Day 1 of its General Availability (GA) release.
 
 ## Network requirements
 To ensure proper connectivity for MDE on macOS, review the official documentation:  
