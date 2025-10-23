@@ -28,8 +28,8 @@ If you don't see these menus, it's possible you don't have sufficient permission
 3. Click **Create** > **New Policy**.
 4. Select **macOS** in platform, and select **Templates** in profile type.
 5. Select **Custom** from Template name, and click **Create**.
-6. Specify name for configuration. (For example, "MDE onboarding package"). 
-7. Specify Custom Configuration profile name (For example, "MDE Onboarding profile").
+6. Specify name for configuration. (For example, "Defender onboarding package"). 
+7. Specify Custom Configuration profile name (For example, "Defender Onboarding profile").
 8. Select Deployment channel **"Device channel"**.
 9. In the configurationp porfile, select the configuratin profile (WindowsDefenderATPOnboarding.xml in extracted Intune folder) which we downloaded in step 1.
 10. Click **Next** to proceed.
