@@ -61,7 +61,7 @@ https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-
 
 ## Device Entolled to Intune
 Your macOS device must be enrolled to **Microsoft Intune**.  
-You can refer to the [Microsoft Intune enrollment documentation](https://learn.microsoft.com/en-us/intune/intune-service/enrollment/macos-enroll).
+You can refer to the official documentation [Microsoft Intune enrollment documentation](https://learn.microsoft.com/en-us/intune/intune-service/enrollment/macos-enroll) or following guide [Enroll device with Intune](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/macOS/Deploy-MDE-macOS-with-Intune/Enroll_device_with_Intune.md)
 
 
 ## Access permissions to portal & API
