@@ -11,48 +11,33 @@ This section outlines the deployment of the Microsoft Defender application on ma
 
 ## Step 1: Download Sample shell script for Defender application installation
 1. Download [Defender installation script file](https://github.com/microsoft/shell-intune-samples/blob/master/macOS/Apps/Defender/installDefender.sh) from Github.
-2. Modify the file (REM application check)
+2. Once downloaded the script file, open it with Notepad
+3. Modify the script. Comment out **waitForOtherApps()** by adding **##**. 
+   > This code checks whether the Office application is installed and delays the installation of the Defender application until Office is installed. Since we are only testing the Defender application, we have commented out this check. As a result, the Defender application will be installed regardless of whether the Office application is present.
 
 ## Step 3: Upload and deploy script file
-
 1. Open [Intune portal](https://aka.ms/memac)
 2. Go to **Devices** > **Monitor** > **By Platform** > **macOS**
-3. Go to **Monitor** > **Manage Device** > **Scripts**
+3. Go to **Monitor** > **Manage Devices** > **Scripts**
 4. Click **Add**
 5. In Basics page, enter name for Script (For example, "Install Defender Application") and click **Next**
-6. Upload the script you downloaded in Step 1. Also use following settings and then click **Next**
+6. Upload the script (installDefender.sh) you downloaded and modified in Step 1. Also use following settings and then click **Next**
    - Run acript as signed in user = No  
    - Hide Script notifications on devices = Not configured  
    - Script frequency = Not configured
    - Max Number of times to retry if script fails = 3  
-7. xxx
+7. In Scope tags page, click **Next**
+8. In Assignments page, click **Add groups** under Included groups to select target groupo. And then click **Next**
+9. In Review + add page, click **Add**
 
-## Step 4: Create MDE App package and assign it to the group
+## Step 4: Check Script logs on macOS device
 
-## Step 1: Create MDE App package and assign it to the group
+1. Go to your macOS device
+2. Open Intune Application
+3. 
+4. Open following folder /Library/Logs/Microsoft/IntuneScripts/installDefender
 
-1. Open [Intune portal](https://aka.ms/memac)
-2. Go to **Apps** > **Monitor** > **Platforms** > **macOS**
-3. Click **Create** button.
-4. Click pull down menu in **App type** and you will see a list of apps.  
-   Select **macOS** under **Microsoft Defender for Endpoint**.
-   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/0c640afed88d27c95f61c2e0e4ae21f58cf786ef/Images/macOS/IntuneMDEAppPackage1.png)
-6. You will see **Microsoft Defender for Endpoing (macOS)**.  
-   Click **Select** to continue.
-   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/0c640afed88d27c95f61c2e0e4ae21f58cf786ef/Images/macOS/IntuneMDEAppPackage2.png)
-7. In **App information** page, use default value and click **Next** (Of course you can choose to change if needed)
-   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/0c640afed88d27c95f61c2e0e4ae21f58cf786ef/Images/macOS/IntuneMDEAppPackage3.png)
-8. In **Scope tag** page, click **Next**. (You can set scope tag if you need)
-9. In **Assignments** page, click **Add group** under Required
-10. Select your device group. In my case "MDE macOS devices" group created in previous step and click **select** button
-    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/0c640afed88d27c95f61c2e0e4ae21f58cf786ef/Images/macOS/IntuneMDEAppPackage4.png)
-11. Click **Next**
-12. Click **Create**.
 
-## Step 2: Verify MDE App package deployment
-
-> It may take some time for the installation status to update in the Intune portal.  
-> You can proceed to the next section and return later to verify the installation status.
 
 1. In **Intune portal**, go to **Apps** > **Monitor** > **Platforms** > **macOS**
 2. Click on the **MDE app** from the applications.
