@@ -46,7 +46,7 @@ This section covers the following methods to check the MDE installation on macOS
     ```
     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4fbe5e76c8e8128aa2a6390d6db4c0fb20af52bf/Images/macOS/MDEmacOS-CLI2.png)  
 
-    Also check folloing [public documentation](https://learn.microsoft.com/en-us/defender-endpoint/mac-resources#configuring-from-the-command-line) for details    
+    Also check following [public documentation](https://learn.microsoft.com/en-us/defender-endpoint/mac-resources#configuring-from-the-command-line) for details    
     
 
 ## Step 3: Checking the macOS device inventory in Defender Portal
@@ -54,7 +54,7 @@ This section covers the following methods to check the MDE installation on macOS
 1. Open [Microsoft Defender portal](https://security.microsoft.com)
 2. Navigate to **Assets** > **Devices**
 3. On the **Device Inventory** page, click the **Computers & Mobile** tab.
-4. Locate your macOS device in the list of devices. If nessesary use the **search box** or **filter options**:
+4. Locate your macOS device in the list of devices. If necessary use the **search box** or **filter options**:
    -   Click **filter** menu
    -   Select **macOS** under **OS platform**
    -   Click Apply button.
