@@ -6,8 +6,8 @@ This section outlines the deployment of the Microsoft Defender application on ma
 - Verifying the deployment status of the Defender application in the Intune portal.
 - Checking the installation script logs directly on the macOS device for troubleshooting or validation.
   
-> There are multiple methods available for deploying applications to macOS devices. In this case, I chose to use a shell script for installation. Alternatively, you can follow the application deployment steps described in [Step 12: Publish the Microsoft Defender application](https://learn.microsoft.com/en-us/defender-endpoint/mac-install-with-intune#step-12-publish-the-microsoft-defender-application) in the official documentation.
-> To explore other deployment options and understand the pros and cons of each method, refer to this [blog post](https://techcommunity.microsoft.com/blog/intunecustomersuccess/deploying-microsoft-365-apps-for-mac-with-microsoft-intune---a-deep-dive/2243040).
+> There are several methods available for deploying applications to macOS devices. In this case, I opted to use a shell script for installation, leveraging a sample script created by my colleague and Intune expert, [Neil Johnson](https://github.com/theneiljohnson). Alternatively, you can follow the official deployment steps outlined in [Step 12: Publish the Microsoft Defender application](https://learn.microsoft.com/en-us/defender-endpoint/mac-install-with-intune#step-12-publish-the-microsoft-defender-application).
+> For a comprehensive overview of other Application deployment options, refer to this [blog post](https://techcommunity.microsoft.com/blog/intunecustomersuccess/deploying-microsoft-365-apps-for-mac-with-microsoft-intune---a-deep-dive/2243040).
 
 ## Step 1: Download Sample shell script for Defender application installation
 1. Download [Defender installation script file](https://github.com/microsoft/shell-intune-samples/blob/master/macOS/Apps/Defender/installDefender.sh) from Github.
