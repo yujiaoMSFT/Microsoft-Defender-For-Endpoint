@@ -13,7 +13,7 @@ Microsoft Defender for Endpoint on macOS is supported on the three most recent m
 - macOS 15.0.1 (Sequoia)
 - macOS 14 (Sonoma)
   
-> This document was tested using following devcies  
+> This document was tested using following devices  
 > - a Mac mini running **macOS Sequoia 15.5** with an Apple M4 chip
 > - a MacBook Air running **macOS Tahoe 26.0.1** with an Apple M4 chip
 > 
@@ -56,10 +56,10 @@ Supported license options include:
 To assign license to the user, refer to the official guide:  
 https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide
 
-> Defender for Endpoint Plan 1 provides antivirus (AV) functionality but does not include capabilities such as endpoint detection and response (EDR), Threat & Vulnarability management and Advanced Hunting.  
+> Defender for Endpoint Plan 1 provides antivirus (AV) functionality but does not include capabilities such as endpoint detection and response (EDR), Threat & Vulnerability management and Advanced Hunting.  
 > For more details about Defender for Endpoint Plan 1, please refer to the [Overview of Defender for Endpoint Plan 1](https://learn.microsoft.com/en-us/defender-endpoint/defender-endpoint-plan-1).
 
-## Device Entolled to Intune
+## Device Enrolled to Intune
 Your macOS device must be enrolled to **Microsoft Intune**.  
 You can refer to the official documentation [Microsoft Intune enrollment documentation](https://learn.microsoft.com/en-us/intune/intune-service/enrollment/macos-enroll) or following guide [Enroll device with Intune](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/macOS/Deploy-MDE-macOS-with-Intune/Enroll_device_with_Intune.md)
 
@@ -68,7 +68,7 @@ You can refer to the official documentation [Microsoft Intune enrollment documen
 To complete the setup, ensure access to both **Microsoft Intune** and **Microsoft Defender Portal**.
 In this guide, an Entra ID account was created and assigned the following roles:
 
-**Microsoft Intune portal & Grahp API**  
+**Microsoft Intune portal & Graph API**  
 Assigned the account to the **Intune Administrator role** under Entra ID built-in roles.  
 This account is designated for accessing the Intune portal and utilizing the Microsoft Graph API.  
 See : [Microsoft Entra built-in roles - Intune Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#intune-administrator)
