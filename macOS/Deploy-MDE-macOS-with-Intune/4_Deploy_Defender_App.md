@@ -32,6 +32,7 @@ If Microsoft Office is already installed on your macOS device, you can continue 
    - Hide Script notifications on devices = Not configured  
    - Script frequency = Not configured
    - Max Number of times to retry if script fails = 3  
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/Images/macOS/IntuneMDEScript1.png)
 7. In Scope tags page, click **Next**
 8. In Assignments page, click **Add groups** under Included groups to select target groupo. And then click **Next**
 9. In Review + add page, click **Add**
