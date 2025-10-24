@@ -70,5 +70,8 @@ Below features are enabled by default (You can change settings via Intune, MDE-a
 
 I will cover security settings in other article.
 
+***
+## Go to next section  
+Once completed, go to next section [6: Run Detection Test](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/macOS/Deploy-MDE-macOS-with-Intune/6_Run_Detection_Test.md)
 
 
