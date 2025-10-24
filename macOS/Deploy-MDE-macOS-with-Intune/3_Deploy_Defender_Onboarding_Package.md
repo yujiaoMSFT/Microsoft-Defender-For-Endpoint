@@ -11,7 +11,7 @@ Following will be covered in this section.
 2. Go to **Settings** > **Endpoints** > **Device management** > **Onboarding**
 3. To select operating system, choose **macOS** from pull down menu.
 4. In connectivity type, select **Streamlined** from pull down menu.  
-   ([Streamlined connectibity](https://learn.microsoft.com/en-us/defender-endpoint/configure-device-connectivity?view=o365-worldwide&branch=connect-devices) is recommended since it requlres less required URLs compared to Standard connectivitry. However, you can chooose Standard if you prefereed)
+   ([Streamlined connectivity](https://learn.microsoft.com/en-us/defender-endpoint/configure-device-connectivity?view=o365-worldwide&branch=connect-devices) is recommended since it requires fewer URLs compared to Standard connectivity. However, you can choose Standard if you preferred)
 5. In deployment method, select **Mobile Device Management / Microsoft Intune**.
 6. Click **Download onboarding package** button and download onboarding package in zip format. (GatewayWindowsDefenderATPOnboardingPackage.zip will be downloaded if you choose Streamlined connectivity)
 
@@ -19,7 +19,7 @@ I'll add a portal screenshot below for reference.
 If you don't see these menus, it's possible you don't have sufficient permissions in Defender. Please refer to this document to verify your access.
 ![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/c2241e2fa4df4f6a4ca655f2cb7270106de7378b/images/macOS/MDE-Download-OnboardingPackage1.png)
 
-7. Extract the zip file. If you are using Windows, right click the file in the file explorere and select **Extract all**. (We will use extracted file at next step)
+7. Extract the zip file. If you are using Windows, right click the file in the file explorer and select **Extract all**. (We will use extracted file at next step)
 
 ## Step 2: Deploy the Microsoft Defender for Endpoint onboarding package for MacOS
 
@@ -31,10 +31,10 @@ If you don't see these menus, it's possible you don't have sufficient permission
 6. Specify name for configuration. (For example, "Defender onboarding package"). 
 7. Specify Custom Configuration profile name (For example, "Defender Onboarding profile").
 8. Select Deployment channel **"Device channel"**.
-9. In the configurationp porfile, select the configuratin profile (WindowsDefenderATPOnboarding.xml in extracted Intune folder) which we downloaded in step 1.
+9. In the configuration profile, select the configuration profile (WindowsDefenderATPOnboarding.xml in extracted Intune folder) which we downloaded in step 1.
 10. Click **Next** to proceed.
 11. Click **Next** to proceed in Scope tag page.
-12. In assignments tab, click add groups. Select target group and cick next
+12. In assignments tab, click add groups. Select target group and click next
 13. In review + create tab, click **Create** to finish.
 
 ***
