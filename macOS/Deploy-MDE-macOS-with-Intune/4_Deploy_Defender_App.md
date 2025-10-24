@@ -17,8 +17,11 @@ This section outlines the deployment of the Microsoft Defender application on ma
 However, since our current focus is solely on testing the Defender application, I’ll explain how to modify the script by commenting out this check. This adjustment ensures that Defender will be installed regardless of whether Microsoft Office is installed.
 If Microsoft Office is already installed on your macOS device, you can continue using the original script without any changes by following below steps.
 
-2. Once downloaded the script file, open it with Notepad
-3. Modify the script. Comment out **waitForOtherApps()** by adding **##**. 
+2. Once downloaded the script file, open it with editor such as Notepad. 
+3. Modify the script by comment out **waitForOtherApps()** by adding **#**.
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/Images/macOS/InstallerScript1.png)
+
+4. xxxx  
    
 ## Step 3: Upload and deploy script file
 1. Open [Intune portal](https://aka.ms/memac)
