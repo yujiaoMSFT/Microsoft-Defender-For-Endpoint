@@ -7,8 +7,8 @@
 - Create a devcie group in Intune. (This group will be used later to deploy the Microsoft Defender for Endpoint (MDE) app and associated policies)  
 
 
-## Prerequiristie
-Ensure your Intune tenant is already configured for macOS device enrollment. If you haven’t completed the configuration, please follow the steps in the [Intune documentation](https://learn.microsoft.com/en-us/intune/intune-service/enrollment/macos-enroll) before proceeding.
+## Prerequisite
+Ensure your Intune tenant is already configured for macOS device enrollment. If you haven't completed the configuration, please follow the steps in the [Intune documentation](https://learn.microsoft.com/en-us/intune/intune-service/enrollment/macos-enroll) before proceeding.
 
 ## Additional notes
 This guide explains how to enroll a macOS device in a BYOD (Bring Your Own Device) scenario.  
@@ -20,20 +20,20 @@ If you intend to enroll a company-owned macOS device such as using Automated Dev
 2. When prompted with the message **"Do you want to allow downloads on officecdn.microsoft.com?"**, click **Allow** to proceed with the download  
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/07a5c99eb247631274801302a602b27f7b92bf86/Images/macOS/Download-IntuneApp.png)
 3. Once the download is complete, run the file named **CompanyPortal-Installer.pkg**  
-4. On welcome screen, click **Contine**  
+4. On welcome screen, click ***Continue**  
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/ca29f659c7991b751e9d055015d4b274a617b99e/Images/macOS/IntuneSetup1.png)
 5. Read the Software License Agreement, then click **Continue**.
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/ca29f659c7991b751e9d055015d4b274a617b99e/Images/macOS/IntuneSetup2.png)
 6. Click **Agree** to accept the Software License Agreement and proceed
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/ca29f659c7991b751e9d055015d4b274a617b99e/Images/macOS/IntuneSetup3.png)
-7. Click **Install** to beging the installation. You may be prompted to enter **admin credentials** of your macOS device. Do so to continue.  
+7. Click **Install** to begin the installation. You may be prompted to enter **admin credentials** of your macOS device. Do so to continue.  
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/ca29f659c7991b751e9d055015d4b274a617b99e/Images/macOS/IntuneSetup4.png)
 8. After installation completes, click **Close**  
     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/b55879b17ef397b1afb5c291d064099949c59166/Images/macOS/IntuneSetup5.png)
 9. You can optionally click **Move to Trash** to delete the installer file once setup is complete.  
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/b55879b17ef397b1afb5c291d064099949c59166/Images/macOS/IntuneSetup6.png)
 
-## Step 2: Sign in to Componay portal and rgister with Intune
+## Step 2: Sign in to Company portal and register with Intune
 
 1. On your macOS device, **Launch Company portal** and click **Sign in**.  
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/16d3cb06f507760f0b8dd787fd3c3e9752d9b79c/Images/macOS/IntuneRegister1.png)
@@ -72,7 +72,7 @@ If you intend to enroll a company-owned macOS device such as using Automated Dev
     - Set **Group type** to **Security**
     - Enter **Group name**. Pick any name you want. I used **MDE macOS devices** as group name.
     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/9c61d069821b668335d7402baa7c19c016661043/Images/macOS/Intune-CreateDeviceGroup2.png)
-3. Click **"No memberrs selected** link under **Members**.
+3. Click **"No members selected** link under **Members**.
     - Search and select your macOS device form the list.
     - Click **Select** button. 
  4. Now 1 member is selected. Click **Create** to create a group
