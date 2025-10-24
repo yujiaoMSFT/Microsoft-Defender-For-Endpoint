@@ -7,7 +7,7 @@ While the  [public documentation](https://learn.microsoft.com/en-us/defender-end
 However, I will instead **leverage a sample Graph API script** created by [Chris Kunze](https://github.com/CKunze-MSFT) to simplify these manual tasks by automation and efficient.
 > If you're anything like me and prefer to avoid repetitive manual tasks, you'll love this method. It saves time and effort! Thanks Chris!
 
-## Prerequistie
+## Prerequisite
 
 -  PC with PowerShell installed (I tested with Windows 11 PC. As long as PowerShell is installed, it should work on other OS such as macOS)
 -  Graph API permission (an account assigned to the **Intune Administrator role** under Entra ID built-in roles)
@@ -15,7 +15,7 @@ However, I will instead **leverage a sample Graph API script** created by [Chris
 ## What this script does?
 
 Before running script, let me explain what this script does.  Once this script runs, it connects to Graph API and complete following. 
-- Download configuraiton files from [GitHub repository](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
+- Download configuration files from [GitHub repository](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
 - Create policy settings in Microsoft Intune portal (See below tables)
 
 
@@ -32,7 +32,7 @@ Before running script, let me explain what this script does.  Once this script r
 | 9 | Kext (Kernel extension) | kext.mobileconfig | Custom |  We don't deploy this policy because no longer needed. (Kernel Extension only works on macOS versions prior to 11)" |
 
 **How does it look like in Intune portal?**  
-After running this script successfuly, it creates the following policies in Intune portal like below screenshot.
+After running this script successfully, it creates the following policies in Intune portal like below screenshot.
 Each policy name start with a **"MDE (imported) -"**
 
 ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4a59bfcee1ddef91783cac9e1bc2097d6e89315d/Images/macOS/Intune-DeviceConfiguration.png)
@@ -53,7 +53,7 @@ Now let's start!
    
 ## Step 2: Install Microsoft Graph PowerShell SDK
    
-> You can skip this step if you alrady installed the Microsoft Graph SDK on your device.
+> You can skip this step if you already installed the Microsoft Graph SDK on your device.
 
 1. Launch PowerShell as administrator, and run command below to start installing [Microsoft Graph PowerShell SDK](https://learn.microsoft.com/ja-jp/powershell/microsoftgraph/installation?view=graph-powershell-1.0):  
      ```sh
@@ -75,7 +75,7 @@ Now let's start!
 The following access permissions are required to execute the PowerShell script for making changes in Intune via API."
 Connect-MgGraph -NoWelcome -Scopes "DeviceManagementConfiguration.ReadWrite.All"
 
-1. In the browser, open [Azure portall](https://portal.azure.com/)
+1. In the browser, open [Azure portal](https://portal.azure.com/)
 2. In the search box on the top, search with keyword **Intune Graph API**.
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/cb9be79b5259eb053027be5470151c880e78931f/Images/macOS/Intune-GraphConfig1.png)
 3. Click **Intune Gpaph API** from the search result.
@@ -89,12 +89,12 @@ Connect-MgGraph -NoWelcome -Scopes "DeviceManagementConfiguration.ReadWrite.All"
 8. In the search box, type **DeviceManagementConfiguration.ReadWrite.All**. You will see the permission listed
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/cb9be79b5259eb053027be5470151c880e78931f/Images/macOS/IntuneGraph-Config5.png)
 9. Select the **DeviceManagementConfiguration.ReadWrite.All** and click **Add permissions**
-10. Veriry API permission is added correctly.
+10. Verify API permission is added correctly.
     ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/ce013bf6e2c12b3269436887f6c8c29941ad0314/Images/macOS/IntuneGraph-Config6.png)
    
 ## Step 4: Execute the script and create policy through Graph API
-Now you're ready to run the script and cretate policies via Graph API. Execute the downloaded PowrShell script (AddDefenderConfigsToIntune.ps1) in the step 1.
-You will see login prompt. Enter your Intuhe admin account and password to proceed.
+Now you're ready to run the script and create policies via Graph API. Execute the downloaded PowrShell script (AddDefenderConfigsToIntune.ps1) in the step 1.
+You will see login prompt. Enter your Intune admin account and password to proceed.
 
 1. Launch PowerShell ISE with administrator privileges.
 2. Open the downloaded script file (AddDefenderConfigsToIntune.ps1) from Step 1.
@@ -105,14 +105,14 @@ You will see login prompt. Enter your Intuhe admin account and password to proce
 
 1. Open [Intune portal](https://aka.ms/memac)   
 2. Go to **Devices** / **Manage devices** / **Configuration** in Microsoft Intune portal.  
-3. Look for policies whose names begin with **"MDE (imported) -"** created successfuly.
+3. Look for policies whose names begin with **"MDE (imported) -"** created successfully.
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/4a59bfcee1ddef91783cac9e1bc2097d6e89315d/Images/macOS/Intune-DeviceConfiguration.png)
 
 ## Step 6: Assign the policy to a group
 
 1. Open [Intune portal](https://aka.ms/memac)
 2. Select the policy crated in Step 5. (In this example, I selected *MDE (imported) - sysext_restricted Configuration*)
-3. Click **Edit** under the Assignments section in the policy proterties.
+3. Click **Edit** under the Assignments section in the policy properties.
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/6f67d935dc99f6bc02938a45d7a8d2ccdfa0f3af/Images/macOS/Intune-PolicyAssign1.png)
 4. On the assignments page, click **Add groups** under Included groups.
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/6f67d935dc99f6bc02938a45d7a8d2ccdfa0f3af/Images/macOS/Intune-PolicyAssign2.png)
