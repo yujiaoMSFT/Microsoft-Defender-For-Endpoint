@@ -4,7 +4,7 @@
 
 In this section, we will cover the creation of multiple configuration policies required for Microsoft Defender for Endpoint on macOS.  
 While the  [public documentation](https://learn.microsoft.com/en-us/defender-endpoint/mac-install-with-intune) outlines these steps using manual profile creation through the Intune portal, you can certainly choose that approach.  
-However, I will instead **leverage a sample Graph API script** created by my collegue in Intune CXE (Customer Experience and Enginneirng ) team [Chris Kunze](https://github.com/CKunze-MSFT) to simplify these manual tasks by automation and efficient.
+However, I will instead **leverage a sample Graph API script** created by my collegue [Chris Kunze](https://github.com/CKunze-MSFT) from Intune CXE (Customer Experience and Enginneirng ) team to simplify these manual tasks by automation and efficient.
 > If you're anything like me and prefer to avoid repetitive manual tasks, you'll love this method. It saves time and effort! Thanks Chris!
 
 ## Prerequisite
