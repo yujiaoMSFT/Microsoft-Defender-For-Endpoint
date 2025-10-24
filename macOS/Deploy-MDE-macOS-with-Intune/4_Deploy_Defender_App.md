@@ -44,4 +44,6 @@ If Microsoft Office is already installed on your macOS device, you can continue 
 4. Review the log details to confirm successful installation or identify any errors that may have occurred.
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/Images/macOS/DefenderApp_ScriptLog.png)
 
-
+***
+## Go to next section  
+Once completed, go to next section [5 Verify Installation](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/macOS/Deploy-MDE-macOS-with-Intune/5_Verify_Installation.md)
