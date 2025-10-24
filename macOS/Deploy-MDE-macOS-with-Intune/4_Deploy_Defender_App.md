@@ -2,7 +2,7 @@
 
 ## What's covered in this section
 This section outlines the deployment of the Microsoft Defender application on macOS devices using Intune. The process includes:
-- Automating the download and installation of the Defender pakage (.pkg) file via an [Intune shell script](https://learn.microsoft.com/en-us/intune/intune-service/apps/macos-shell-scripts).
+- Automating the download and installation of the Defender package (.pkg) file via an [Intune shell script](https://learn.microsoft.com/en-us/intune/intune-service/apps/macos-shell-scripts).
 - Verifying the deployment status of the Defender application in the Intune portal.
 - Checking the installation script logs directly on the macOS device for troubleshooting or validation.
   
@@ -13,11 +13,11 @@ This section outlines the deployment of the Microsoft Defender application on ma
 1. Download [Defender installation script file](https://github.com/microsoft/shell-intune-samples/blob/master/macOS/Apps/Defender/installDefender.sh) from Github.
 > Note  
 > The original script includes a condition that checks whether Microsoft Office is installed. **If Office is not present, the script halts and does not proceed with the installation of Microsoft Defender.**
-However, since our current focus is solely on testing the Defender application, I’ll explain how to modify the script by commenting out this check. This adjustment ensures that Defender will be installed regardless of whether Microsoft Office is installed.
+However, since our current focus is solely on testing the Defender application, I'll explain how to modify the script by commenting out this check. This adjustment ensures that Defender will be installed regardless of whether Microsoft Office is installed.
 If Microsoft Office is already installed on your macOS device, you can continue using the original script without any changes by following below steps.
 2. Open the downloaded script file using a text editor such as Notepad. 
 3. Locate the line containing waitForOtherApps() in the script.
-4. Comment out the **waitForOtherApps()** line by adding a # at the beginning of the line. (See example in below screnshot)
+4. Comment out the **waitForOtherApps()** line by adding a # at the beginning of the line. (See example in below screenshot)
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/Images/macOS/InstallerScript1.png)
 5. Save the modified script file.
    
@@ -28,13 +28,13 @@ If Microsoft Office is already installed on your macOS device, you can continue 
 4. Click **Add** to begin the script deployment process.
 5. On Basics page, enter a name for the script (e.g., Install Defender Application) and click **Next**
 6. Upload the installDefender.sh from Step 1. Apply the following settings and click **Next**
-   - Run acript as signed in user: No  
+   - Run script as signed in user: No  
    - Hide Script notifications on devices: Not configured  
    - Script frequency: Not configured
    - Max Number of times to retry if script fails: 3  
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/Images/macOS/IntuneMDEScript1.png)
 7. On Scope tags page, click **Next**
-8. On Assignments page, click **Add groups** under Included groups to select target groupo. After selecting the group, click **Next**
+8. On Assignments page, click **Add groups** under Included groups to select target group. After selecting the group, click **Next**
 9. On Review + add page, click **Add** to complete the script deployment.
 
 ## Step 4: View Script Execution Logs on macOS Devices
