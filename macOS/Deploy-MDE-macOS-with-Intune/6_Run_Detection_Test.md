@@ -159,3 +159,7 @@ sudo mdatp config behavior-monitoring --value enabled
    
 **Reference:**  
 [EDR detection test for verifying device's onboarding and reporting services](https://learn.microsoft.com/en-us/defender-endpoint/edr-detection)
+
+***
+## Go to next section  
+Once completed, go to next section [7: Conclusion](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/macOS/Deploy-MDE-macOS-with-Intune/7_Conclusion.md)
