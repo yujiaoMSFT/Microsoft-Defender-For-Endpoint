@@ -6,7 +6,7 @@
     - Antivirus (Behavior Monitoring)
     - EDR (Endpoint Detection & Response)
 
-## Detection test 1: Antivirus (Real Time Pritection - aka RTP)
+## Detection test 1: Antivirus (Real Time Protection - aka RTP)
 
 ### Step 1: Verify Real Time Protection (RTP) status
 Open **Terminal** and run the following command to check the status of Real-Time Protection (RTP).
@@ -21,7 +21,7 @@ If RTP is enabled, the output will be *true*.
 sudo mdatp config real_time_protection_enabled --value enabled
 ```
 
-### Step 2: Downlaod test file (Eicar) for detection
+### Step 2: Download test file (Eicar) for detection
 Run below command in terminal
 ```sh
 curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
@@ -56,14 +56,14 @@ curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/a2af008515d23c94ce6d090ec117654681c472fa/Images/macOS/MDEmacOS-Incident2.png)
 5. Once the investigation has completed, click **Manage Incident**.
    - Set the **status** to **Resolved**.
-   - Set the **classfication** as **Security testing**
+   - Set the **classification** as **Security testing**
    - Click Save to close the incident.
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/5dde3b3c2d5fefee019f7cd89dc16780ea891c89/Images/macOS/MDEmacOS-Incident3.png)
 
 **Reference:**  
 [Antivirus detection test for verifying device's onboarding and reporting services](https://learn.microsoft.com/en-us/defender-endpoint/validate-antimalware)
 
-## Detection test 2: Anttivirus (Behavior moniroing)
+## Detection test 2: Antivirus (Behavior monitoring)
 > **Behavior Monitoring for MDE on macOS is reached General Availability (GA) in June 2025**.  
 > For more details, Please refer to official [blog announcement](https://techcommunity.microsoft.com/blog/microsoftdefenderatpblog/behavior-monitoring-is-now-generally-available-for-microsoft-defender-for-endpoi/4415697) and [public document](https://learn.microsoft.com/en-us/defender-endpoint/behavior-monitor-macos)
 
@@ -137,7 +137,7 @@ sudo mdatp config behavior-monitoring --value enabled
 
 1. Open the [Microsoft Defender portal](https://security.microsoft.com)
 2. Navigate to **Incidents & alerts** > **Incidents**
-4. Click the indident name to view full details.
+4. Click the incidident name to view full details.
   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/d8e83f916ebc0dda5b171632a22a990d8703422b/Images/macOS/MDEmacOS-Incident5.png)
 
  
