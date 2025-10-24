@@ -11,17 +11,14 @@ This section outlines the deployment of the Microsoft Defender application on ma
 
 ## Step 1: Download Sample shell script for Defender application installation
 1. Download [Defender installation script file](https://github.com/microsoft/shell-intune-samples/blob/master/macOS/Apps/Defender/installDefender.sh) from Github.
-
 > Note  
 > The original script includes a condition that checks whether Microsoft Office is installed. **If Office is not present, the script halts and does not proceed with the installation of Microsoft Defender.**
 However, since our current focus is solely on testing the Defender application, I’ll explain how to modify the script by commenting out this check. This adjustment ensures that Defender will be installed regardless of whether Microsoft Office is installed.
 If Microsoft Office is already installed on your macOS device, you can continue using the original script without any changes by following below steps.
-
 2. Once downloaded the script file, open it with editor such as Notepad. 
-3. Modify the script by comment out **waitForOtherApps()** by adding **#**.
+3. Modify the script by comment out **waitForOtherApps()** by adding **#**. 
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/Images/macOS/InstallerScript1.png)
-
-4. xxxx  
+4. save the script file  
    
 ## Step 3: Upload and deploy script file
 1. Open [Intune portal](https://aka.ms/memac)
