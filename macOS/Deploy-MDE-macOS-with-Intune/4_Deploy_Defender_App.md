@@ -21,7 +21,7 @@ If Microsoft Office is already installed on your macOS device, you can continue 
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/Images/macOS/InstallerScript1.png)
 5. Save the modified script file.
    
-## Step 3: Upload and deploy script file
+## Step 3: Deploy the script file using Microsoft Intune
 1. Open [Intune portal](https://aka.ms/memac)
 2. Go to **Devices** > **Monitor** > **By Platform** > **macOS**
 3. Go to **Monitor** > **Manage Devices** > **Scripts**
