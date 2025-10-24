@@ -17,7 +17,7 @@ However, since our current focus is solely on testing the Defender application, 
 If Microsoft Office is already installed on your macOS device, you can continue using the original script without any changes by following below steps.
 2. Open the downloaded script file using a text editor such as Notepad. 
 3. Locate the line containing waitForOtherApps() in the script.
-4. Comment out the waitForOtherApps() line by adding a # at the beginning of the line. (See example in below screnshot)
+4. Comment out the **waitForOtherApps()** line by adding a # at the beginning of the line. (See example in below screnshot)
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/Images/macOS/InstallerScript1.png)
 5. Save the modified script file.
    
