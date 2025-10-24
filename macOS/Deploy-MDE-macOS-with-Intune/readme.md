@@ -29,3 +29,5 @@ The table below outlines the key steps for deploying MDE on macOS using Intune. 
 | 6 | [Run a detection test](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/macOS/Deploy-MDE-macOS-with-Intune/6_Run_Detection_Test.md) | Run antivirus, behavior monitoring, and EDR tests to validate MDE detection on macOS via UI, terminal, and Defender portal. EDR requires MDE P2 or MDB license. | 
 | option | [Enroll the device with Intune](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/macOS/Deploy-MDE-macOS-with-Intune/Enroll_device_with_Intune.md) | Enroll macOS in Intune (BYOD), install Company Portal, and sign in to Intune. Create a device group for deploying Defender for Endpoint and managing policies.|
 
+## High level steps (Diagram)
+![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/Images/macOS/MDE-macOS-Intune-Diagram.png)
