@@ -96,10 +96,10 @@ Connect-MgGraph -NoWelcome -Scopes "DeviceManagementConfiguration.ReadWrite.All"
 Now you're ready to run the script and create policies via Graph API. Execute the downloaded PowrShell script (AddDefenderConfigsToIntune.ps1) in the step 1.
 You will see login prompt. Enter your Intune admin account and password to proceed.
 
-1. Launch PowerShell ISE with administrator privileges.
-2. Open the downloaded script file (AddDefenderConfigsToIntune.ps1) from Step 1.
+1. Launch PowerShell.
+2. Locate to the downloaded script file (AddDefenderConfigsToIntune.ps1) from Step 1.
 3. Run the script to initiate policy creation.
-   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/123f64d5473e7c61e13303a076dee34f435b575a/Images/macOS/PS-IntuneGraphSDK3.png)
+   ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/Images/macOS/PS-Intune_GraphSDK.png)
 
 ## Step 5: Check Policy created in  Microsoft Intune portal
 
