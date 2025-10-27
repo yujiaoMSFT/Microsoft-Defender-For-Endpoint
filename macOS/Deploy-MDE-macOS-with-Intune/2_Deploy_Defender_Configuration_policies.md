@@ -58,7 +58,7 @@ Now let's start!
    
 > You can skip this step if you already installed the Microsoft Graph SDK on your device.
 
-1. Launch PowerShell as administrator, and run command below to start installing [Microsoft Graph PowerShell SDK](https://learn.microsoft.com/ja-jp/powershell/microsoftgraph/installation?view=graph-powershell-1.0):  
+1. Launch PowerShell and run command below to start installing [Microsoft Graph PowerShell SDK](https://learn.microsoft.com/ja-jp/powershell/microsoftgraph/installation?view=graph-powershell-1.0):  
      ```sh
      Install-Module Microsoft.Graph -Scope CurrentUser
      ```
@@ -97,8 +97,10 @@ Now you're ready to run the script and create policies via Graph API. Execute th
 You will see login prompt. Enter your Intune admin account and password to proceed.
 
 1. Launch PowerShell.
-2. Locate to the downloaded script file (AddDefenderConfigsToIntune.ps1) from Step 1.
-3. Run the script to initiate policy creation.
+2. Navigate to the downloaded script file, AddDefenderConfigsToIntune.ps1, which you downloaded in Step 1.
+3. Execute the script to begin the policy creation process.
+4. Sign in when prompted: A login window will appear. Enter your Intune administrator credentials to proceed.
+5. The results of the script execution will be displayed in the PowerShell window.
    ![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/main/Images/macOS/PS-Intune_GraphSDK.png)
 
 ## Step 5: Check Policy created in  Microsoft Intune portal
