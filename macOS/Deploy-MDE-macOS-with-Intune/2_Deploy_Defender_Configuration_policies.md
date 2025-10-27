@@ -12,7 +12,7 @@ However, I will instead **leverage a sample Graph API script** created by my col
 -  PC with PowerShell installed
       -   If you're using macOS, you can follow the official installation guide here: [Installing PowerShell on macOS](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-macos?view=powershell-7.5)
 -  Graph API permission
--        (an account assigned to the **Intune Administrator role** under Entra ID built-in roles)
+      -   An account assigned to the **Intune Administrator role** under Entra ID built-in roles)
 
 ## What this script does?
 
