@@ -17,7 +17,7 @@ Following will be covered in this section.
 
 I'll add a portal screenshot below for reference.
 If you don't see these menus, it's possible you don't have sufficient permissions in Defender. Please refer to this document to verify your access.
-![image alt](https://github.com/yujiaoMSFT/mde-temp/blob/c2241e2fa4df4f6a4ca655f2cb7270106de7378b/images/macOS/MDE-Download-OnboardingPackage1.png)
+![image alt](https://github.com/yujiaoMSFT/Microsoft-Defender-For-Endpoint/blob/7120fe8da7d8735c05745d82c0a72cf7fc151b5b/Images/macOS/MDE-Download-OnboardingPackage1.png)
 
 7. Extract the zip file. If you are using Windows, right click the file in the file explorer and select **Extract all**. (We will use extracted file at next step)
 
